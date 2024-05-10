@@ -21,7 +21,7 @@ repository               : "jaewoo97/jaewoo97.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot_2.jpg"
+  avatar           : "headshot_2.png"
   name             : "Jaewoo Jeong"
   pronouns         : # example: "she/her"  
   bio              : "2nd year PhD candidate at KAIST \n jeong207@kaist.ac.kr"

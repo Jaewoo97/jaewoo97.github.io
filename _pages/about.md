@@ -76,6 +76,7 @@ Publications
         Predicting AFM topography from optical microscopes using deep-learning<br>
         <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
         <b>Advanced Intelligent Systems, 2022 / IF 7.4</b><br>
+        <b>Selected as inside back cover</b><br>
         <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202200317">[paper]</a>
     </div>
 </div>

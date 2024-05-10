@@ -13,7 +13,7 @@ I am a 2nd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.go
 My current research focuses on understanding, predicting, and synthesizing human motion & human pose in real & synthetic environments. Ultimately, my goal is to bring about more advanced human-computer interaction systems that would benefit all humans.
 <br/>
 
-I come from a mechanical engineering background. During undergraduate studies, conducting research in 
+I come from a mechanical engineering background. During undergraduate studies, I have participated in diverse researches, including  conducting research in 
 
 My CV can be found [here.](https://github.com/Jaewoo97/jaewoo97.github.io/blob/master/files/Jaewoo_Jeong_CV_240510.pdf)
 <br/>
@@ -31,6 +31,7 @@ Publications
         <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[github]</a>
     </div>
 </div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/TTTT.png' alt='CVPR 2024' width='250' height='140' style="margin-right: 13px;">
 
@@ -42,6 +43,7 @@ Publications
         <a href="https://arxiv.org/abs/2403.10052">[paper]</a> <a href="https://github.com/daeheepark/T4P">[github]</a>
     </div>
 </div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/aaai.png' alt='AAAI 2023' width='250' height='140' style="margin-right: 13px;">
 
@@ -53,6 +55,7 @@ Publications
         <a href="https://arxiv.org/abs/2312.15906">[paper]</a> <a href="https://github.com/daeheepark/TrajSDE">[github]</a>
     </div>
 </div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/nems.png' alt='NEMS 2023' width='250' height='140' style="margin-right: 13px;">
 
@@ -61,8 +64,10 @@ Publications
         Near-infrared inspection and machine learning-based prediction for semiconductor membrane cavity structures<br>
         M. Jeong, <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
         <b>NEMS 2023</b><br>
+        <a href="https://ieee-nems2023.org/board/article/956">[proceeding]</a>
     </div>
 </div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/ais.png' alt='Advanced Intelligent Systems' width='250' height='140' style="margin-right: 13px;">
 
@@ -74,6 +79,7 @@ Publications
         <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202200317">[paper]</a>
     </div>
 </div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/simulation.gif' alt='Micro and Nano System Letters' width='250' height='140' style="margin-right: 13px;">
 
@@ -85,6 +91,7 @@ Publications
         <a href="https://mnsl-journal.springeropen.com/articles/10.1186/s40486-022-00164-5">[paper]</a>
     </div>
 </div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/pca.png' alt='Scientific Reports' width='250' height='140' style="margin-right: 13px;">
 
@@ -96,6 +103,7 @@ Publications
         <a href="https://www.nature.com/articles/s41598-022-11185-w">[paper]</a>
     </div>
 </div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/biomed_2.png' alt='Biomedical Engineering Letters' width='250' height='140' style="margin-right: 13px;">
 
@@ -107,6 +115,7 @@ Publications
         <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8486908/">[paper]</a>
     </div>
 </div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/3d_print.jpg' alt='Advanced Materials' width='250' height='140' style="margin-right: 13px;">
 
@@ -118,14 +127,6 @@ Publications
         <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201803980">[paper]</a>
     </div>
 </div>
-
-
-
-<img src='/images/biomed_2.png' width='250' height='140'>
-test2
-<br/>
-<br/>
-<img src='/images/3d_print.jpg' width='250' height='140'>
 
 Projects
 ======

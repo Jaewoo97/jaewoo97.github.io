@@ -26,7 +26,7 @@ Publications
     <!-- Text Content -->
     <div>
         <!-- Title (bold) -->
-        __CVPR 2024 Highlight (11.9% of accepted)__<br>
+        <b>CVPR 2024 Highlight (11.9% of accepted)</b><br>
 
         <!-- Description -->
         Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>

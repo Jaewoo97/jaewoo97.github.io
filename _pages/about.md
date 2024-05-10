@@ -13,7 +13,7 @@ I am a 2nd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.go
 My current research focuses on understanding, predicting, and synthesizing human motion & human pose in real & synthetic environments. Ultimately, my goal is to bring about more advanced human-computer interaction systems that would benefit all humans.
 <br/>
 
-I come from a mechanical engineering background. During undergraduate studies, I have participated in diverse researches, including  conducting research in 
+I come from a mechanical engineering background. During my undergraduate years, I have discovered my passion in developing computational algorithms while participating in computational fluid mechanics research. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/) to pursue research in computer vision artifical intelligence.
 
 My CV can be found [here.](https://github.com/Jaewoo97/jaewoo97.github.io/blob/master/files/Jaewoo_Jeong_CV_240510.pdf)
 <br/>
@@ -130,7 +130,7 @@ Publications
 
 Projects
 ======
-- 2023.2 ~ 2023.12 / Syn2Real domain adaptation for military object detection / LIG Nex1
+- 2023.2 ~ 2023.12 / Synthetic-to-Real domain adaptation for military object detection / LIG Nex1
 <br/>
 - 2023.5 ~ 2023.12 / Surround view depth estimation for autonomous vehicle systems / Hyundai NGV
 <br/>

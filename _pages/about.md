@@ -22,8 +22,8 @@ My CV can be found [here.](https://github.com/jaewoo97/jaewoo97.github.io/files/
 Publications
 ======
 <img src='/images/t2p.png' width='250' height='140'>
-test
-<br/>
+**CVPR 2024 Highlight (11.9% of accepted)** / Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning
+Jaewoo Jeong*, Daehee Park*, Kuk-Jin Yoon
 <br/>
 <img src='/images/TTTT.png' width='250' height='140'>
 test1
@@ -49,7 +49,7 @@ test2
 test2
 <br/>
 <br/>
-<img src='/images/biomed.jpg' width='250' height='140'>
+<img src='/images/biomed_2.jpg' width='250' height='140'>
 test2
 <br/>
 <br/>

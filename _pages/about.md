@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at Korea Advanced Institute of Science and Technology (KAIST). 
+I am a 2nd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
 <br/>
 
 My current research focuses on understanding, predicting, and synthesizing human motion & human pose in real & synthetic environments. Ultimately, my goal is to bring about more advanced human-computer interaction systems that would benefit all humans.

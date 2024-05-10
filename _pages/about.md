@@ -12,18 +12,27 @@ I am a 2nd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.go
 
 My current research focuses on understanding, predicting, and synthesizing human motion & human pose in real & synthetic environments. Ultimately, my goal is to bring about more advanced human-computer interaction systems that would benefit all humans.
 <br/>
-<br/>
+
+I come from a mechanical engineering background. During undergraduate studies, conducting research in 
 
 My CV can be found [here.](https://github.com/jaewoo97/jaewoo97.github.io/files/Jaewoo_Jeong_CV_240510.pdf)
-
-<br/>
 <br/>
 
 Publications
 ======
-<img src='/images/t2p.png' width='250' height='140'>
-**CVPR 2024 Highlight (11.9% of accepted)** / Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning
-Jaewoo Jeong*, Daehee Park*, Kuk-Jin Yoon
+<div style="display: flex; align-items: center;">
+    <img src='/images/t2p.png' alt='CVPR 2024 Highlight' width='250' height='140' style="margin-right: 20px;">
+
+    <!-- Text Content -->
+    <div>
+        <!-- Title (bold) -->
+        **CVPR 2024 Highlight (11.9% of accepted)**
+
+        <!-- Description -->
+        Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning  
+        Jaewoo Jeong*, Daehee Park*, Kuk-Jin Yoon
+    </div>
+</div>
 <br/>
 <img src='/images/TTTT.png' width='250' height='140'>
 test1

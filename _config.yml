@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Jaewoo Jeong"
   pronouns         : # example: "she/her"  
-  bio              : "2nd year graduate student at KAIST"
+  bio              : "2nd year graduate student at KAIST / jeong207@kaist.ac.kr"
   location         : "Daejeon, South Korea"
   employer         : "KAIST"
   uri              : # URL
@@ -202,18 +202,18 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: false
-    permalink: /:collection/:path/
-  publications:
-    output: false
-    permalink: /:collection/:path/
-  portfolio:
-    output: false
-    permalink: /:collection/:path/
-  talks:
-    output: false
-    permalink: /:collection/:path/
+  # teaching:
+  #   output: false
+  #   permalink: /:collection/:path/
+  # publications:
+  #   output: false
+  #   permalink: /:collection/:path/
+  # portfolio:
+  #   output: false
+  #   permalink: /:collection/:path/
+  # talks:
+  #   output: false
+  #   permalink: /:collection/:path/
 
 
 # Defaults

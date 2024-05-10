@@ -28,7 +28,7 @@ Publications
         Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
         <b>Jaewoo Jeong</b>*, Daehee Park*, Kuk-Jin Yoon<br>
         <b>CVPR 2024 Highlight (11.9% of accepted)</b><br>
-        [paper](https://arxiv.org/abs/2404.05218)
+        <a href="https://github.com/gmarciani">gmarciani</a>
     </div>
 </div>
 <br/>

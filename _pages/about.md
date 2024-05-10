@@ -7,9 +7,22 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown /staeiou/staeiou.github.io).
+I am a 2nd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at Korea Advanced Institute of Science and Technology (KAIST). 
 
-My CV can be found [here](https://github.com/jaewoo97/jaewoo97.github.io/files/Jaewoo_Jeong_CV_240510.pdf)
+<br/>
+<br/>
+
+My current research focuses on understanding, predicting, and synthesizing human motion & human pose in real & synthetic environments. Ultimately, my goal is to bring about 
+
+<br/>
+<br/>
+
+My CV can be found [here.](https://github.com/jaewoo97/jaewoo97.github.io/files/Jaewoo_Jeong_CV_240510.pdf)
+
+<br/>
+<br/>
+
+Publications
 ======
 <img src='/images/t2p.png' width='250' height='140'>
 test
@@ -47,6 +60,9 @@ test2
 
 Projects
 ======
-2023.2 ~ 2023.12 / Syn2Real domain adaptation for military object detection / LIG Nex1
-2023.5 ~ 2023.12 / Surround view depth estimation for autonomous vehicle systems / Hyundai NGV
-2024.6 ~ 2025.6 / Vehicle trajectory prediction for autonomous vehicle systems / Hyundai Motor Group 
+- 2023.2 ~ 2023.12 / Syn2Real domain adaptation for military object detection / LIG Nex1
+<br/>
+- 2023.5 ~ 2023.12 / Surround view depth estimation for autonomous vehicle systems / Hyundai NGV
+<br/>
+- 2024.6 ~ 2025.6 / Vehicle trajectory prediction for autonomous vehicle systems / Hyundai Motor Group 
+<br/>

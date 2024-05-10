@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "files/headshot.jpg"
   name             : "Jaewoo Jeong"
   pronouns         : # example: "she/her"  
   bio              : "2nd year graduate student at KAIST / jeong207@kaist.ac.kr"
@@ -47,7 +47,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # CV 
-  cv               : "https://github.com/jaewoo97/jaewoo97.github.io/blob/master/files/paper1.pdf"
+  # cv               : "https://github.com/jaewoo97/jaewoo97.github.io/blob/master/files/paper1.pdf"
 
   # Social media
   bluesky          : 

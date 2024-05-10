@@ -12,12 +12,15 @@ This is the front page of a website that is powered by the [Academic Pages templ
 Publications
 ======
 excerpt: "Short description of portfolio item number 2 <br/>
-<img src='/images/500x300.png' width='150' height='75'>
+<img src='/images/t2p.png' width='150' height='75'>
 test.
 <br/>
+<img src='/images/TTTT.png' width='150' height='75'>
 test1
 <br/>
+<img src='/images/aaai.png' width='150' height='75'>
 test2
+
 
 Getting started
 ======

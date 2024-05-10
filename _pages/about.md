@@ -28,7 +28,7 @@ Publications
         Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
         <b>J. Jeong</b>*, D. Park*, K. Yoon<br>
         <b>CVPR 2024 Highlight (11.9% of accepted)</b><br>
-        <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[github]</a>
+        <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[code]</a>
     </div>
 </div>
 <br/>
@@ -40,7 +40,7 @@ Publications
         T4P: Test-Time Training of Trajectory Prediction via Masked Autoencoder and Actor-specific Token Memory<br>
         D. Park, J. Jeong, S. Yoon, <b>J. Jeong</b>, K. Yoon<br>
         <b>CVPR 2024</b><br>
-        <a href="https://arxiv.org/abs/2403.10052">[paper]</a> <a href="https://github.com/daeheepark/T4P">[github]</a>
+        <a href="https://arxiv.org/abs/2403.10052">[paper]</a> <a href="https://github.com/daeheepark/T4P">[code]</a>
     </div>
 </div>
 <br/>
@@ -52,7 +52,7 @@ Publications
         Improving Transferability for Cross-domain Trajectory Prediction via Neural Stochastic Differential Equation<br>
         D. Park, <b>J. Jeong</b>, K. Yoon<br>
         <b>AAAI 2023</b><br>
-        <a href="https://arxiv.org/abs/2312.15906">[paper]</a> <a href="https://github.com/daeheepark/TrajSDE">[github]</a>
+        <a href="https://arxiv.org/abs/2312.15906">[paper]</a> <a href="https://github.com/daeheepark/TrajSDE">[code]</a>
     </div>
 </div>
 <br/>

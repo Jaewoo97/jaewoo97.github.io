@@ -26,17 +26,36 @@ Publications
     <!-- Text Content -->
     <div>
         Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
-        <b>Jaewoo Jeong</b>*, Daehee Park*, Kuk-Jin Yoon<br>
+        <b>J. Jeong</b>*, D. Park*, K. Yoon<br>
         <b>CVPR 2024 Highlight (11.9% of accepted)</b><br>
-        <a href="https://arxiv.org/abs/2404.05218">[paper]</a>
+        <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[github]</a>
     </div>
 </div>
 <br/>
-<img src='/images/TTTT.png' width='250' height='140'>
-test1
+<div style="display: flex; align-items: center;">
+    <img src='/images/TTTT.png' alt='CVPR 2024' width='250' height='140' style="margin-right: 20px;">
+
+    <!-- Text Content -->
+    <div>
+        T4P: Test-Time Training of Trajectory Prediction via Masked Autoencoder and Actor-specific Token Memory<br>
+        D. Park, J. Jeong, S. Yoon, <b>J. Jeong</b>, K. Yoon<br>
+        <b>CVPR 2024</b><br>
+        <a href="https://arxiv.org/abs/2403.10052">[paper]</a> <a href="https://github.com/daeheepark/T4P">[github]</a>
+    </div>
+</div>
 <br/>
 <br/>
-<img src='/images/aaai.png' width='250' height='140'>
+<div style="display: flex; align-items: center;">
+    <img src='/images/TTTT.png' alt='CVPR 2024 Highlight' width='250' height='140' style="margin-right: 20px;">
+
+    <!-- Text Content -->
+    <div>
+        T4P: Test-Time Training of Trajectory Prediction via Masked Autoencoder and Actor-specific Token Memory<br>
+        D. Park, J. Jeong, S. Yoon, <b>J. Jeong</b>, Kuk-Jin Yoon<br>
+        <b>CVPR 2024</b><br>
+        <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/daeheepark/T4P">[github]</a>
+    </div>
+</div>
 test2
 <br/>
 <br/>

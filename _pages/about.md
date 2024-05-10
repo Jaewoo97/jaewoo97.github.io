@@ -21,7 +21,7 @@ My CV can be found [here.](https://github.com/Jaewoo97/jaewoo97.github.io/blob/m
 Publications
 ======
 <div style="display: flex; align-items: center;">
-    <img src='/images/t2p.png' alt='CVPR 2024 Highlight' width='250' height='140' style="margin-right: 20px;">
+    <img src='/images/t2p.png' alt='CVPR 2024 Highlight' width='250' height='140' style="margin-right: 13px;">
 
     <!-- Text Content -->
     <div>
@@ -32,7 +32,7 @@ Publications
     </div>
 </div>
 <div style="display: flex; align-items: center;">
-    <img src='/images/TTTT.png' alt='CVPR 2024' width='250' height='140' style="margin-right: 20px;">
+    <img src='/images/TTTT.png' alt='CVPR 2024' width='250' height='140' style="margin-right: 13px;">
 
     <!-- Text Content -->
     <div>
@@ -42,37 +42,85 @@ Publications
         <a href="https://arxiv.org/abs/2403.10052">[paper]</a> <a href="https://github.com/daeheepark/T4P">[github]</a>
     </div>
 </div>
-<br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/aaai.png' alt='AAAI 2023' width='250' height='140' style="margin-right: 20px;">
+    <img src='/images/aaai.png' alt='AAAI 2023' width='250' height='140' style="margin-right: 13px;">
 
     <!-- Text Content -->
     <div>
         Improving Transferability for Cross-domain Trajectory Prediction via Neural Stochastic Differential Equation<br>
-        D. Park, <b>J. Jeong</b>, Kuk-Jin Yoon<br>
+        D. Park, <b>J. Jeong</b>, K. Yoon<br>
         <b>AAAI 2023</b><br>
         <a href="https://arxiv.org/abs/2312.15906">[paper]</a> <a href="https://github.com/daeheepark/TrajSDE">[github]</a>
     </div>
 </div>
-test2
-<br/>
-<br/>
-<img src='/images/nems.png' width='250' height='140'>
-test2
-<br/>
-<br/>
-<img src='/images/ais.png' width='250' height='333'>
-test2
-<br/>
-<br/>
-<img src='/images/simulation.gif' width='250' height='140'>
-test2
-<br/>
-<br/>
-<img src='/images/pca.png' width='250' height='140'>
-test2
-<br/>
-<br/>
+<div style="display: flex; align-items: center;">
+    <img src='/images/nems.png' alt='NEMS 2023' width='250' height='140' style="margin-right: 13px;">
+
+    <!-- Text Content -->
+    <div>
+        Near-infrared inspection and machine learning-based prediction for semiconductor membrane cavity structures<br>
+        M. Jeong, <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
+        <b>NEMS 2023</b><br>
+    </div>
+</div>
+<div style="display: flex; align-items: center;">
+    <img src='/images/ais.png' alt='Advanced Intelligent Systems' width='250' height='140' style="margin-right: 13px;">
+
+    <!-- Text Content -->
+    <div>
+        Predicting AFM topography from optical microscopes using deep-learning<br>
+        <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
+        <b>Advanced Intelligent Systems, 2022 / IF 7.4</b><br>
+        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202200317">[paper]</a>
+    </div>
+</div>
+<div style="display: flex; align-items: center;">
+    <img src='/images/simulation.gif' alt='Micro and Nano System Letters' width='250' height='140' style="margin-right: 13px;">
+
+    <!-- Text Content -->
+    <div>
+        Simulation of Germanium-on-Nothing cavity’s morphological transformation using deep learning<br>
+        <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
+        <b>Micro and Nano System Letters, 2022 / IF 3.6</b><br>
+        <a href="https://mnsl-journal.springeropen.com/articles/10.1186/s40486-022-00164-5">[paper]</a>
+    </div>
+</div>
+<div style="display: flex; align-items: center;">
+    <img src='/images/pca.png' alt='Scientific Reports' width='250' height='140' style="margin-right: 13px;">
+
+    <!-- Text Content -->
+    <div>
+        PCA-based sub-surface structure and defect analysis for Germanium-on-Nothing using nanoscale surface topography<br>
+        <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
+        <b>Scientific Reports, 2022 / IF 4.6</b><br>
+        <a href="https://www.nature.com/articles/s41598-022-11185-w">[paper]</a>
+    </div>
+</div>
+<div style="display: flex; align-items: center;">
+    <img src='/images/biomed_2.png' alt='Biomedical Engineering Letters' width='250' height='140' style="margin-right: 13px;">
+
+    <!-- Text Content -->
+    <div>
+        Cellular and biomolecular detection based on suspended microchannel resonators<br>
+        J. Ko, <b>J. Jeong</b>, S. Son, J. Lee<br>
+        <b>Biomedical Engineering Letters, 2021 / IF 4.6</b><br>
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8486908/">[paper]</a>
+    </div>
+</div>
+<div style="display: flex; align-items: center;">
+    <img src='/images/3d_print.jpg' alt='Advanced Materials' width='250' height='140' style="margin-right: 13px;">
+
+    <!-- Text Content -->
+    <div>
+        3D Printed Polymer Photodetectors<br>
+        S. H. Park, R. Su, <b>J. Jeong</b>, S. Z. Guo K. Qiu, D. Joung, F. Meng, M. C. McAlpine<br>
+        <b>Advanced Materials, 2018 / IF 29.4</b><br>
+        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201803980">[paper]</a>
+    </div>
+</div>
+
+
+
 <img src='/images/biomed_2.png' width='250' height='140'>
 test2
 <br/>

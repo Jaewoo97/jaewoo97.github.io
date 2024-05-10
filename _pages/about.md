@@ -29,7 +29,7 @@ Publications
         **CVPR 2024 Highlight (11.9% of accepted)**
 
         <!-- Description -->
-        Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning  
+        Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
         Jaewoo Jeong*, Daehee Park*, Kuk-Jin Yoon
     </div>
 </div>

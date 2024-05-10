@@ -16,6 +16,8 @@ excerpt: "Short description of portfolio item number 2 <br/>
 test.
 <br/>
 test1
+<br/>
+test2
 
 Getting started
 ======

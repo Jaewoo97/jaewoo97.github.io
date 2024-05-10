@@ -11,8 +11,11 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 Publications
 ======
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png' width='300' height='150'>
+excerpt: "Short description of portfolio item number 2 <br/>
+<img src='/images/500x300.png' width='150' height='75'>
 test.
+<br/>
+test1
 
 Getting started
 ======

@@ -15,7 +15,7 @@ My current research focuses on understanding, predicting, and synthesizing human
 
 I come from a mechanical engineering background. During undergraduate studies, conducting research in 
 
-My CV can be found [here.](https://github.com/jaewoo97/jaewoo97.github.io/files/Jaewoo_Jeong_CV_240510.pdf)
+My CV can be found [here.](https://github.com/Jaewoo97/jaewoo97.github.io/blob/master/files/Jaewoo_Jeong_CV_240510.pdf)
 <br/>
 
 Publications
@@ -31,7 +31,6 @@ Publications
         <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[github]</a>
     </div>
 </div>
-<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/TTTT.png' alt='CVPR 2024' width='250' height='140' style="margin-right: 20px;">
 
@@ -44,9 +43,8 @@ Publications
     </div>
 </div>
 <br/>
-<br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/TTTT.png' alt='CVPR 2024 Highlight' width='250' height='140' style="margin-right: 20px;">
+    <img src='/images/aaai.png' alt='AAAI 2023' width='250' height='140' style="margin-right: 20px;">
 
     <!-- Text Content -->
     <div>

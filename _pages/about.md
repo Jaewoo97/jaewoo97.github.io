@@ -58,7 +58,7 @@ test2
 test2
 <br/>
 <br/>
-<img src='/images/biomed_2.jpg' width='250' height='140'>
+<img src='/images/biomed_2.png' width='250' height='140'>
 test2
 <br/>
 <br/>

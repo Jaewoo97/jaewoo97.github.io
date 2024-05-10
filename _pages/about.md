@@ -48,10 +48,10 @@ Publications
 
     <!-- Text Content -->
     <div>
-        T4P: Test-Time Training of Trajectory Prediction via Masked Autoencoder and Actor-specific Token Memory<br>
-        D. Park, J. Jeong, S. Yoon, <b>J. Jeong</b>, Kuk-Jin Yoon<br>
-        <b>CVPR 2024</b><br>
-        <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/daeheepark/T4P">[github]</a>
+        Improving Transferability for Cross-domain Trajectory Prediction via Neural Stochastic Differential Equation<br>
+        D. Park, <b>J. Jeong</b>, Kuk-Jin Yoon<br>
+        <b>AAAI 2023</b><br>
+        <a href="https://arxiv.org/abs/2312.15906">[paper]</a> <a href="https://github.com/daeheepark/TrajSDE">[github]</a>
     </div>
 </div>
 test2

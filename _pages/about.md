@@ -15,7 +15,7 @@ My current research focuses on understanding, predicting, and synthesizing human
 
 I come from a mechanical engineering background. During my undergraduate years, I have discovered my passion in developing computational algorithms while participating in computational fluid mechanics research. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/) to pursue research in AI for computer vision.
 
-My CV can be found [here.](https://github.com/Jaewoo97/jaewoo97.github.io/blob/master/files/Jaewoo_Jeong_CV_240510.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_240510.pdf)
 <br/>
 
 Publications

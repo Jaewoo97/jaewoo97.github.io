@@ -13,7 +13,7 @@ I am a 2nd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.go
 My current research focuses on understanding, predicting, and synthesizing human motion & pose in real & synthetic environments. Ultimately, my goal is to bring about more advanced human-computer interaction systems that would enrich everyday life of humans.
 <br/>
 
-While pursuing a career in AI, I come from a mechanical engineering background. During my undergraduate years, I have discovered my passion in developing computational algorithms while participating in computational fluid mechanics research. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/) to pursue research in AI for computer vision.
+During my undergraduate years, I have discovered my passion in developing computational algorithms while participating in computational fluid mechanics research. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
 My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_240510.pdf)
 <br/>

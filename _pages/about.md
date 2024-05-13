@@ -150,8 +150,8 @@ Publications
 
     .publication-image-middle {
         margin-right: 13px;
-        width: 175px; /* Default width */
-        height: 220px; /* Default height */
+        width: 185px; /* Default width */
+        height: 205px; /* Default height */
     }
 
     .publication-info {
@@ -175,8 +175,8 @@ Publications
 
     @media (max-width: 1000px) {
         .publication-image-middle {
-            width: 100px; /* Adjusted width for smaller screens */
-            height: 130px; /* Adjusted height for smaller screens */
+            width: 110px; /* Adjusted width for smaller screens */
+            height: 120px; /* Adjusted height for smaller screens */
         }
     }
     

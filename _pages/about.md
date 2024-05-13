@@ -21,7 +21,7 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_240
 Publications
 ======
 <div style="display: flex; align-items: center;">
-    <img src='/images/t2p.png' alt='CVPR 2024 Highlight' class="publication-image">
+    <img src='/images/t2p.gif' alt='CVPR 2024 Highlight' class="publication-image">
 
     <!-- Text Content -->
     <div class="publication-info">

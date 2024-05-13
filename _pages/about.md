@@ -56,7 +56,7 @@ Publications (Computer Vision)
     </div>
 </div>
 <br/>
-Previous Publications
+Previous Publications (Mechanical Engineering)
 ======
 <div style="display: flex; align-items: center;">
     <img src='/images/nems.png' alt='NEMS 2023' class="publication-image">

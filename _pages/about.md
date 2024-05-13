@@ -56,6 +56,7 @@ Publications (Computer Vision)
     </div>
 </div>
 <br/>
+
 Previous Publications (Mechanical Engineering)
 ======
 <div style="display: flex; align-items: center;">

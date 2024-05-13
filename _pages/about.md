@@ -82,7 +82,7 @@ Publications
 </div>
 <br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/simulation.gif' alt='Micro and Nano System Letters' class="publication-image">
+    <img src='/images/simulation.gif' alt='Micro and Nano System Letters' class="publication-image-simulation">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -142,6 +142,12 @@ Publications
         height: 140px; /* Default height */
     }
 
+    .publication-image-simulation {
+        margin-right: 13px;
+        width: 250px; /* Default width */
+        height: 190px; /* Default height */
+    }
+
     .publication-image-narrow {
         margin-right: 13px;
         width: 175px; /* Default width */
@@ -150,8 +156,8 @@ Publications
 
     .publication-image-middle {
         margin-right: 13px;
-        width: 185px; /* Default width */
-        height: 205px; /* Default height */
+        width: 205px; /* Default width */
+        height: 185px; /* Default height */
     }
 
     .publication-info {
@@ -165,6 +171,13 @@ Publications
             height: 84px; /* Adjusted height for smaller screens */
         }
     }
+
+    @media (max-width: 1000px) {
+        .publication-image-simulation {
+            width: 150px; /* Adjusted width for smaller screens */
+            height: 120px; /* Adjusted height for smaller screens */
+        }
+    }
     
     @media (max-width: 1000px) {
         .publication-image-narrow {
@@ -176,7 +189,7 @@ Publications
     @media (max-width: 1000px) {
         .publication-image-middle {
             width: 110px; /* Adjusted width for smaller screens */
-            height: 120px; /* Adjusted height for smaller screens */
+            height: 100px; /* Adjusted height for smaller screens */
         }
     }
     

@@ -18,7 +18,7 @@ During my undergraduate years, I have discovered my passion in developing comput
 My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_240510.pdf)
 <br/>
 
-Publications
+Publications (Computer Vision)
 ======
 <div style="display: flex; align-items: center;">
     <img src='/images/t2p.gif' alt='CVPR 2024 Highlight' class="publication-image">
@@ -56,6 +56,8 @@ Publications
     </div>
 </div>
 <br/>
+Previous Publications
+======
 <div style="display: flex; align-items: center;">
     <img src='/images/nems.png' alt='NEMS 2023' class="publication-image">
 

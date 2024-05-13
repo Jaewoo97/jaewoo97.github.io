@@ -153,8 +153,8 @@ Previous Publications (Mechanical Engineering)
 
     .publication-image-narrow {
         margin-right: 13px;
-        width: 175px; /* Default width */
-        height: 250px; /* Default height */
+        width: 180px; /* Default width */
+        height: 240px; /* Default height */
     }
 
     .publication-image-middle {
@@ -185,7 +185,7 @@ Previous Publications (Mechanical Engineering)
     @media (max-width: 1000px) {
         .publication-image-narrow {
             width: 100px; /* Adjusted width for smaller screens */
-            height: 150px; /* Adjusted height for smaller screens */
+            height: 133px; /* Adjusted height for smaller screens */
         }
     }
 

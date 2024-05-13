@@ -153,14 +153,14 @@ Publications
     }
 
     /* Media query for smaller screens (e.g., mobile devices) */
-    @media (max-width: 2000px) {
+    @media (max-width: 1000px) {
         .publication-image {
             width: 150px; /* Adjusted width for smaller screens */
             height: 84px; /* Adjusted height for smaller screens */
         }
     }
     
-    @media (max-width: 2000px) {
+    @media (max-width: 1000px) {
         .publication-image-narrow {
             width: 80px; /* Adjusted width for smaller screens */
             height: 150px; /* Adjusted height for smaller screens */

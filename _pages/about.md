@@ -106,7 +106,7 @@ Publications
 </div>
 <br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/biomed_2.png' alt='Biomedical Engineering Letters' class="publication-image-narrow">
+    <img src='/images/biomed_2.png' alt='Biomedical Engineering Letters' class="publication-image-middle">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -118,7 +118,7 @@ Publications
 </div>
 <br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/3d_print.jpg' alt='Advanced Materials' class="publication-image-narrow">
+    <img src='/images/3d_print.jpg' alt='Advanced Materials' class="publication-image-middle">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -148,6 +148,12 @@ Publications
         height: 250px; /* Default height */
     }
 
+    .publication-image-middle {
+        margin-right: 13px;
+        width: 175px; /* Default width */
+        height: 220px; /* Default height */
+    }
+
     .publication-info {
         flex-grow: 1; /* Allow text to expand */
     }
@@ -164,6 +170,13 @@ Publications
         .publication-image-narrow {
             width: 100px; /* Adjusted width for smaller screens */
             height: 150px; /* Adjusted height for smaller screens */
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .publication-image-middle {
+            width: 100px; /* Adjusted width for smaller screens */
+            height: 130px; /* Adjusted height for smaller screens */
         }
     }
     

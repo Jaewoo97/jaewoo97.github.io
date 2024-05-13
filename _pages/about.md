@@ -69,7 +69,7 @@ Publications
 </div>
 <br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/ais.png' alt='Advanced Intelligent Systems' class="publication-image">
+    <img src='/images/ais.png' alt='Advanced Intelligent Systems' class="publication-image-narrow">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -106,7 +106,7 @@ Publications
 </div>
 <br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/biomed_2.png' alt='Biomedical Engineering Letters' class="publication-image">
+    <img src='/images/biomed_2.png' alt='Biomedical Engineering Letters' class="publication-image-narrow">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -118,7 +118,7 @@ Publications
 </div>
 <br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/3d_print.jpg' alt='Advanced Materials' class="publication-image">
+    <img src='/images/3d_print.jpg' alt='Advanced Materials' class="publication-image-narrow">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -142,6 +142,12 @@ Publications
         height: 140px; /* Default height */
     }
 
+    .publication-image-narrow {
+        margin-right: 13px;
+        width: 140px; /* Default width */
+        height: 250px; /* Default height */
+    }
+
     .publication-info {
         flex-grow: 1; /* Allow text to expand */
     }
@@ -153,6 +159,14 @@ Publications
             height: 84px; /* Adjusted height for smaller screens */
         }
     }
+    
+    @media (max-width: 2000px) {
+        .publication-image-narrow {
+            width: 80px; /* Adjusted width for smaller screens */
+            height: 150px; /* Adjusted height for smaller screens */
+        }
+    }
+    
 </style>
 
 Projects

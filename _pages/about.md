@@ -57,7 +57,7 @@ Publications (Computer Vision)
 </div>
 <br/>
 
-Previous Publications (Manufacturing)
+Publications (Manufacturing)
 ======
 <div style="display: flex; align-items: center;">
     <img src='/images/nems.png' alt='NEMS 2023' class="publication-image">

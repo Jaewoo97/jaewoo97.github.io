@@ -144,7 +144,7 @@ Publications
 
     .publication-image-narrow {
         margin-right: 13px;
-        width: 140px; /* Default width */
+        width: 175px; /* Default width */
         height: 250px; /* Default height */
     }
 
@@ -162,7 +162,7 @@ Publications
     
     @media (max-width: 1000px) {
         .publication-image-narrow {
-            width: 80px; /* Adjusted width for smaller screens */
+            width: 100px; /* Adjusted width for smaller screens */
             height: 150px; /* Adjusted height for smaller screens */
         }
     }

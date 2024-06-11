@@ -45,13 +45,13 @@ Publications (Computer Vision)
 </div>
 <br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/aaai.png' alt='AAAI 2023' class="publication-image">
+    <img src='/images/aaai.png' alt='AAAI 2024' class="publication-image">
 
     <!-- Text Content -->
     <div class="publication-info">
         Improving Transferability for Cross-domain Trajectory Prediction via Neural Stochastic Differential Equation<br>
         D. Park, <b>J. Jeong</b>, K. Yoon<br>
-        <b>AAAI 2023</b><br>
+        <b>AAAI 2024</b><br>
         <a href="https://arxiv.org/abs/2312.15906">[paper]</a> <a href="https://github.com/daeheepark/TrajSDE">[code]</a>
     </div>
 </div>

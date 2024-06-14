@@ -21,13 +21,13 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_240
 Publications (Computer Vision)
 ======
 <div style="display: flex; align-items: center;">
-    <img src='/images/t2p.gif' alt='CVPR 2024 Highlight' class="publication-image">
+    <img src='/images/main_t2p_cropped.gif' alt='CVPR 2024 Highlight' class="publication-image-t2p">
 
     <!-- Text Content -->
     <div class="publication-info">
         Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
         <b>J. Jeong</b>*, D. Park*, K. Yoon<br>
-        <b>CVPR 2024 Highlight (11.9% of accepted)</b><br>
+        <b>CVPR 2024 Highlight (2.8% of submitted)</b><br>
         <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[code]</a>
     </div>
 </div>
@@ -145,6 +145,12 @@ Publications (Manufacturing)
         height: 140px; /* Default height */
     }
 
+    .publication-image-t2p {
+        margin-right: 13px;
+        width: 270px; /* Default width */
+        height: 140px; /* Default height */
+    }
+
     .publication-image-simulation {
         margin-right: 13px;
         width: 250px; /* Default width */
@@ -171,6 +177,13 @@ Publications (Manufacturing)
     @media (max-width: 1000px) {
         .publication-image {
             width: 150px; /* Adjusted width for smaller screens */
+            height: 84px; /* Adjusted height for smaller screens */
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .publication-image-t2p {
+            width: 160px; /* Adjusted width for smaller screens */
             height: 84px; /* Adjusted height for smaller screens */
         }
     }

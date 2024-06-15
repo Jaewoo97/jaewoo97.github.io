@@ -220,18 +220,21 @@ Projects
 - 2024.6 ~ 2025.6 / Vehicle trajectory prediction for autonomous vehicle systems / Hyundai Motor Group 
 <br/>
 
-<!-- Default Statcounter code for My personal website http://jaewoo97.github.io
--->
+<!-- Default Statcounter code for personal website
+http://jaewoo97.github.io -->
 <script type="text/javascript">
-var sc_project=13008441; 
+var sc_project=13008444; 
 var sc_invisible=0; 
-var sc_security="40f20b0c"; 
+var sc_security="15ef52d2"; 
 var scJsHost = "https://";
-document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
 "statcounter.com/counter/counter.js'></"+"script>");
 </script>
-<noscript><div class="statcounter"><a title="website statistics"
-href="https://statcounter.com/" target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/13008441/0/40f20b0c/0/" alt="website statistics"
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13008444/0/15ef52d2/0/"
+alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->

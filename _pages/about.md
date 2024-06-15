@@ -223,18 +223,17 @@ Projects
 <!-- Default Statcounter code for personal website
 http://jaewoo97.github.io -->
 <script type="text/javascript">
-var sc_project=13008444; 
-var sc_invisible=0; 
-var sc_security="15ef52d2"; 
-var scJsHost = "https://";
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
+var sc_project=13008447; 
+var sc_invisible=1; 
+var sc_security="c31e27ca"; 
 </script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
 <noscript><div class="statcounter"><a title="Web Analytics
 Made Easy - Statcounter" href="https://statcounter.com/"
 target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/13008444/0/15ef52d2/0/"
+src="https://c.statcounter.com/13008447/0/c31e27ca/1/"
 alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->

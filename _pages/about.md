@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab (VILab)](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
+I am a 3rd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab (VILab)](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
 <br/>
 
 My current research focuses on understanding, predicting, and synthesizing human motion. Ultimately, my goal is to bring about more advanced human-computer interaction systems that would enrich everyday life of humans.
@@ -16,9 +16,11 @@ My current research focuses on understanding, predicting, and synthesizing human
 During my undergraduate years, I have discovered my passion in developing computational algorithms while participating in computational fluid mechanics research. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
 My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_241123.pdf)
-
-I have been selected as the finalist for 2024 Qualcomm Innovation Fellowship Korea.
 <br/>
+
+Awards
+======
+- 2024 Qualcomm Innovation Fellowship Korea Awardee
 
 Publications (Computer Vision)
 ======

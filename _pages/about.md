@@ -25,7 +25,7 @@ Awards
 Publications (Computer Vision)
 ======
 <div style="display: flex; align-items: center;">
-    <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image">
+    <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image-kdtp">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -169,8 +169,7 @@ Publications (Manufacturing)
 
     .publication-image-kdtp {
         margin-right: 13px;
-        width: 190; /* Default width */
-        height: 140; /* Default height */
+        width: 240; /* Default width */
     }
 
     .publication-image-simulation {

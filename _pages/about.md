@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a 3rd year Ph.D. student advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab (VILab)](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
+I am a 3rd year Ph.D. candidate advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab (VILab)](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
 <br/>
 
-My current research focuses on understanding, predicting, and synthesizing human motion. Ultimately, my goal is to bring about more advanced human-computer interaction systems that would enrich everyday life of humans.
+My current research focuses on human motion prediction / generation and multimodal LLMs. Ultimately, my goal is to develop AI that enhances human-computer and human-robot interaction, enriching everyday life.
 <br/>
 
 During my undergraduate years, I have discovered my passion in developing computational algorithms while participating in computational fluid mechanics research. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_241123.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_250227.pdf)
 <br/>
 
 Awards
@@ -24,6 +24,18 @@ Awards
 
 Publications (Computer Vision)
 ======
+<div style="display: flex; align-items: center;">
+    <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
+        <b>J. Jeong</b>, S. Lee, D. Park, K. Yoon<br>
+        <b>CVPR 2025</b><br>
+        <!-- <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
+    </div>
+</div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/final_t2p_main.gif' alt='CVPR 2024 Highlight' class="publication-image-t2p">
 

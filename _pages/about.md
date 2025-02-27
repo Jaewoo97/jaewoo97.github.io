@@ -188,7 +188,7 @@ Publications (Manufacturing)
     .publication-image-kdtp {
         margin-right: 13px;
         width: 190; /* Default width */
-        height: 140x; /* Default height */
+        height: 140; /* Default height */
     }
 
     .publication-info {

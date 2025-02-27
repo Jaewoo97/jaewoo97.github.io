@@ -157,7 +157,7 @@ Publications (Manufacturing)
 
     .publication-image {
         margin-right: 13px;
-        width: 250px; /* Default width */
+        width: 260px; /* Default width */
         height: 140px; /* Default height */
     }
 

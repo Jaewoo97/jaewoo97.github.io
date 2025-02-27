@@ -25,11 +25,11 @@ Awards
 Publications (Computer Vision)
 ======
 <div style="display: flex; align-items: center;">
-    <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image">
+    <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image-kdtp">
 
     <!-- Text Content -->
     <div class="publication-info">
-        Multi-modal Knowledge Distillation-based Human Trajectory Forecasting11<br>
+        Multi-modal Knowledge Distillation-based Human Trajectory Forecasting22<br>
         <b>J. Jeong</b>, S. Lee, D. Park, K. Yoon<br>
         <b>CVPR 2025</b><br>
         <!-- <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
@@ -169,7 +169,8 @@ Publications (Manufacturing)
 
     .publication-image-kdtp {
         margin-right: 13px;
-        width: 240; /* Default width */
+        width: 250px; /* Default width */
+        height: 160px; /* Default height */
     }
 
     .publication-image-simulation {
@@ -211,7 +212,7 @@ Publications (Manufacturing)
 
     @media (max-width: 1000px) {
         .publication-image-kdtp {
-            width: 150px; /* Adjusted width for smaller screens */
+            width: 155px; /* Adjusted width for smaller screens */
             height: 84px; /* Adjusted height for smaller screens */
         }
     }

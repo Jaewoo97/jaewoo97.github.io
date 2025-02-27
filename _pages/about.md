@@ -167,6 +167,12 @@ Publications (Manufacturing)
         height: 140px; /* Default height */
     }
 
+    .publication-image-kdtp {
+        margin-right: 13px;
+        width: 190; /* Default width */
+        height: 140; /* Default height */
+    }
+
     .publication-image-simulation {
         margin-right: 13px;
         width: 250px; /* Default width */
@@ -183,13 +189,7 @@ Publications (Manufacturing)
         margin-right: 13px;
         width: 205px; /* Default width */
         height: 185px; /* Default height */
-    }
-
-    .publication-image-kdtp {
-        margin-right: 13px;
-        width: 190; /* Default width */
-        height: 140; /* Default height */
-    }
+    } 
 
     .publication-info {
         flex-grow: 1; /* Allow text to expand */
@@ -206,6 +206,13 @@ Publications (Manufacturing)
     @media (max-width: 1000px) {
         .publication-image-t2p {
             width: 160px; /* Adjusted width for smaller screens */
+            height: 84px; /* Adjusted height for smaller screens */
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .publication-image-kdtp {
+            width: 150px; /* Adjusted width for smaller screens */
             height: 84px; /* Adjusted height for smaller screens */
         }
     }

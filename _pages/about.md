@@ -29,7 +29,7 @@ Publications (Computer Vision)
 
     <!-- Text Content -->
     <div class="publication-info">
-        Multi-modal Knowledge Distillation-based Human Trajectory Forecasting33<br>
+        Multi-modal Knowledge Distillation-based Human Trajectory Forecasting<br>
         <b>J. Jeong</b>, S. Lee, D. Park, K. Yoon<br>
         <b>CVPR 2025</b><br>
         <!-- <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
@@ -157,8 +157,8 @@ Publications (Manufacturing)
 
     .publication-image {
         margin-right: 13px;
-        width: 260px; /* Default width */
-        height: 150px; /* Default height */
+        width: 265px; /* Default width */
+        height: 155px; /* Default height */
     }
     
     .publication-image-t2p {

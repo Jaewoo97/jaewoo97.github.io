@@ -15,7 +15,7 @@ My current research focuses on human motion prediction / generation and multimod
 
 During my undergraduate years, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_250227.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_250331.pdf)
 <br/>
 
 Awards

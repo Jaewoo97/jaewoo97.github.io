@@ -30,7 +30,7 @@ Publications (Computer Vision)
     <!-- Text Content -->
     <div class="publication-info">
         Multi-modal Knowledge Distillation-based Human Trajectory Forecasting<br>
-        <b>J. Jeong</b>, S. Lee, D. Park, K. Yoon<br>
+        <b>J. Jeong</b>, S. Lee, D. Park, G. Lee, K. Yoon<br>
         <b>CVPR 2025</b><br>
         <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a>
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->

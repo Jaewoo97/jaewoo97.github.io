@@ -10,7 +10,7 @@ redirect_from:
 I am a 3rd year Ph.D. candidate advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab (VILab)](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
 <br/>
 
-My current research focuses on human motion prediction / generation and multimodal LLMs. Ultimately, my goal is to develop AI that enhances human-computer and human-robot interaction, enriching everyday life.
+My current research focuses on human motion prediction / generation and multimodal LLMs. Ultimately, my goal is to develop AI models that enrich human-computer and human-robot interactions, improving everyday life.
 <br/>
 
 During my undergraduate years, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.

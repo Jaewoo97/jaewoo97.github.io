@@ -32,8 +32,7 @@ Publications (Computer Vision)
         Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning<br>
         G. Lee*, D. Park*, <b>J. Jeong</b>*, K. Yoon<br>
         <b>IROS 2025</b><br>* denotes equal contribution<br>
-        Paper coming soon!
-        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> -->
+        <a href="jaewoo97.github.io">[paper coming soon!]</a>
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
     </div>
 </div>

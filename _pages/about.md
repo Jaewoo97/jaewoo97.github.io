@@ -57,7 +57,7 @@ Publications (Computer Vision)
     <div class="publication-info">
         Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
         <b>J. Jeong</b>*, D. Park*, K. Yoon<br>
-        <b>CVPR 2024 Highlight (2.8% of submitted)</b></br>* denotes equal contribution<br>
+        <b>CVPR 2024 Highlight (2.8% of submitted)</b><br>* denotes equal contribution<br>
         <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a>
     </div>
 </div>

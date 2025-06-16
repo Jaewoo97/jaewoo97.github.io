@@ -25,6 +25,20 @@ Awards
 Publications (Computer Vision)
 ======
 <div style="display: flex; align-items: center;">
+    <img src='/images/iros_teaser.png' alt='IROS 2025' class="publication-image-kdtp">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning<br>
+        G. Lee*, D. Park*, <b>J. Jeong</b>*, K. Yoon<br>
+        <b>IROS 2025</b><br>, * denotes equal contribution
+        Paper coming soon!
+        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> -->
+        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
+    </div>
+</div>
+<br/>
+<div style="display: flex; align-items: center;">
     <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image-kdtp">
 
     <!-- Text Content -->
@@ -44,7 +58,7 @@ Publications (Computer Vision)
     <div class="publication-info">
         Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
         <b>J. Jeong</b>*, D. Park*, K. Yoon<br>
-        <b>CVPR 2024 Highlight (2.8% of submitted)</b><br>
+        <b>CVPR 2024 Highlight (2.8% of submitted)</b><br>, * denotes equal contribution
         <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a>
     </div>
 </div>

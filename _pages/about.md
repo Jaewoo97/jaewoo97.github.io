@@ -15,7 +15,7 @@ My current research focuses on human motion prediction / generation and multimod
 
 During my undergraduate years, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_250607.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_250616.pdf)
 <br/>
 
 Awards
@@ -31,7 +31,7 @@ Publications (Computer Vision)
     <div class="publication-info">
         Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning<br>
         G. Lee*, D. Park*, <b>J. Jeong</b>*, K. Yoon<br>
-        <b>IROS 2025</b>, * denotes equal contribution<br>
+        <b>IROS 2025</b><br>* denotes equal contribution<br>
         Paper coming soon!
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> -->
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
@@ -58,7 +58,7 @@ Publications (Computer Vision)
     <div class="publication-info">
         Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
         <b>J. Jeong</b>*, D. Park*, K. Yoon<br>
-        <b>CVPR 2024 Highlight (2.8% of submitted)</b>, * denotes equal contribution<br>
+        <b>CVPR 2024 Highlight (2.8% of submitted)</b></br>* denotes equal contribution<br>
         <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a>
     </div>
 </div>

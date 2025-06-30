@@ -15,7 +15,7 @@ My current research focuses on human motion prediction / generation and multimod
 
 During my undergraduate years at U of Minnesota-Twin Cities, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_250616.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_250626.pdf)
 <br/>
 
 Awards
@@ -24,6 +24,19 @@ Awards
 
 Publications (Computer Vision)
 ======
+<div style="display: flex; align-items: center;">
+    <img src='/images/merge_plan_intro.png' alt='IROS 2025' class="publication-image-kdtp">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Interaction-Merged Motion Planning: Effectively Leveraging Diverse Motion Datasets for Robust Planning<br>
+        G. Lee*, W. Jeong*, D. Park, <b>J. Jeong</b>*, K. Yoon<br>
+        <b>ICCV 2025</b><br>* denotes equal contribution<br>
+        <a href="jaewoo97.github.io">[paper coming soon!]</a>
+        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
+    </div>
+</div>
+
 <div style="display: flex; align-items: center;">
     <img src='/images/iros_teaser.png' alt='IROS 2025' class="publication-image-kdtp">
 
@@ -36,6 +49,7 @@ Publications (Computer Vision)
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
     </div>
 </div>
+
 <br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image-kdtp">

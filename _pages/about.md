@@ -25,7 +25,7 @@ Awards
 Publications (Computer Vision)
 ======
 <div style="display: flex; align-items: center;">
-    <img src='/images/merge_plan_intro.png' alt='IROS 2025' class="publication-image-kdtp">
+    <img src='/images/merge_plan_intro.png' alt='IROS 2025' class="publication-image-merge">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -36,6 +36,8 @@ Publications (Computer Vision)
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
     </div>
 </div>
+
+<br/>
 
 <div style="display: flex; align-items: center;">
     <img src='/images/iros_teaser.png' alt='IROS 2025' class="publication-image-kdtp">
@@ -51,6 +53,7 @@ Publications (Computer Vision)
 </div>
 
 <br/>
+
 <div style="display: flex; align-items: center;">
     <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image-kdtp">
 
@@ -199,6 +202,12 @@ Publications (Manufacturing)
         margin-right: 13px;
         width: 227px; /* Default width */
         height: 155px; /* Default height */
+    }
+
+    .publication-image-merge {
+        margin-right: 13px;
+        width: 240px; /* Default width */
+        height: 170px; /* Default height */
     }
 
     .publication-image-simulation {

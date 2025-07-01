@@ -30,7 +30,7 @@ Publications (Computer Vision)
     <!-- Text Content -->
     <div class="publication-info">
         Interaction-Merged Motion Planning: Effectively Leveraging Diverse Motion Datasets for Robust Planning<br>
-        G. Lee*, W. Jeong*, D. Park, <b>J. Jeong</b>*, K. Yoon<br>
+        G. Lee*, W. Jeong*, D. Park, <b>J. Jeong</b>, K. Yoon<br>
         <b>ICCV 2025</b><br>* denotes equal contribution<br>
         <a href="jaewoo97.github.io">[paper coming soon!]</a>
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->

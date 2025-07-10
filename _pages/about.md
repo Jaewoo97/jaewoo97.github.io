@@ -14,7 +14,7 @@ My research interests include, but are not limited to: motion prediction/plannin
 
 During my undergraduate years at U of Minnesota-Twin Cities, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_250626.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_250710.pdf)
 <br/>
 
 Awards

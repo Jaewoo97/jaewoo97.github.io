@@ -24,7 +24,7 @@ Awards
 Publications (Computer Vision)
 ======
 <div style="display: flex; align-items: center;">
-    <img src='/images/merge_plan_intro.png' alt='IROS 2025' class="publication-image-merge">
+    <img src='/images/merge_plan_intro.png' alt='ICCV 2025' class="publication-image-merge">
 
     <!-- Text Content -->
     <div class="publication-info">

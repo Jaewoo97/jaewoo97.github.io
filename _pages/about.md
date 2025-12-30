@@ -19,6 +19,7 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_251
 
 Awards
 ======
+- 2025 Qualcomm Innovation Fellowship Korea Finalist
 - 2024 Qualcomm Innovation Fellowship Korea Awardee
 
 Publications (Computer Vision)

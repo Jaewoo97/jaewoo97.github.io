@@ -107,7 +107,7 @@ Publications (Motion prediction / planning)
 Publications (Computer vision for manufacturing)
 ======
 <div style="display: flex; align-items: center;">
-    <img src='/images/advsci.jpg' alt='AdvSci' class="publication-image">
+    <img src='/images/advsci.jpg' alt='AdvSci' class="publication-image-advsci">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -204,6 +204,12 @@ Publications (Computer vision for manufacturing)
         width: 270px; /* Default width */
         height: 160px; /* Default height */
     }
+
+    .publication-image-advsci {
+        margin-right: 13px;
+        width: 270px; /* Default width */
+        height: 120px; /* Default height */
+    }
     
     .publication-image-t2p {
         margin-right: 13px;
@@ -246,6 +252,13 @@ Publications (Computer vision for manufacturing)
     }
 
     /* Media query for smaller screens (e.g., mobile devices) */
+    @media (max-width: 1000px) {
+        .publication-image-advsci {
+            width: 150px; /* Adjusted width for smaller screens */
+            height: 64px; /* Adjusted height for smaller screens */
+        }
+    }
+
     @media (max-width: 1000px) {
         .publication-image {
             width: 150px; /* Adjusted width for smaller screens */

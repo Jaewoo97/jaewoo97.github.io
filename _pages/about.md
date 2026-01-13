@@ -106,6 +106,18 @@ Publications (Motion prediction / planning)
 
 Publications (Computer vision for manufacturing)
 ======
+<div style="display: flex; align-items: center;">
+    <img src='/images/advsci.png' alt='AdvSci' class="publication-image">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework<br>
+        D. Lee, S. Roh, <b>J. Jeong</b>, K. Yoon, J. Lee, and Y. Nam<br>
+        <b>Advanced Science 2026</b><br>
+        <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202521372">[paper]</a>
+    </div>
+</div>
+<br/>
 
 <div style="display: flex; align-items: center;">
     <img src='/images/nems.png' alt='NEMS 2023' class="publication-image">

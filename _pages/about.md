@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a 3rd year Ph.D. candidate advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab (VILab)](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
+I am a 4th year Ph.D. candidate advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab (VILab)](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
 <br/>
 
 My research interests include, but are not limited to: motion prediction/planning and multimodal LLMs. Ultimately, my goal is to develop AI models that enrich human-computer and human-robot interactions, improving everyday life. <br/>
 
 During my undergraduate years at U of Minnesota-Twin Cities, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_251028.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260113.pdf)
 <br/>
 
 Awards
@@ -22,7 +22,7 @@ Awards
 - 2025 Qualcomm Innovation Fellowship Korea Finalist
 - 2024 Qualcomm Innovation Fellowship Korea Awardee
 
-Publications (Computer Vision)
+Publications (Motion prediction / planning)
 ======
 <div style="display: flex; align-items: center;">
     <img src='/images/merge_plan_intro.png' alt='ICCV 2025' class="publication-image-merge">
@@ -104,8 +104,20 @@ Publications (Computer Vision)
 </div>
 <br/>
 
-Publications (Manufacturing)
+Publications (Computer vision for manufacturing)
 ======
+<div style="display: flex; align-items: center;">
+    <img src='/images/advsci.png' alt='AdvSci' class="publication-image">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework<br>
+        D. Lee, S. Roh, <b>J. Jeong<b>, K. Yoon, J. Lee, and Y. Nam
+        <b>Advanced Science 2026</b><br>
+        <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202521372">[paper]</a>
+    </div>
+</div>
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/nems.png' alt='NEMS 2023' class="publication-image">
 

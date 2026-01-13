@@ -138,7 +138,7 @@ Publications (Computer vision for manufacturing)
     <div class="publication-info">
         Predicting AFM topography from optical microscopes using deep-learning<br>
         <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
-        <b>Advanced Intelligent Systems, 2022 / IF 7.4</b><br>
+        <b>Advanced Intelligent Systems, 2022</b><br>
         <b>Selected as inside back cover</b><br>
         <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202200317">[paper]</a>
     </div>
@@ -151,7 +151,7 @@ Publications (Computer vision for manufacturing)
     <div class="publication-info">
         Simulation of Germanium-on-Nothing cavity’s morphological transformation using deep learning<br>
         <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
-        <b>Micro and Nano System Letters, 2022 / IF 3.6</b><br>
+        <b>Micro and Nano System Letters, 2022</b><br>
         <a href="https://mnsl-journal.springeropen.com/articles/10.1186/s40486-022-00164-5">[paper]</a>
     </div>
 </div>
@@ -163,7 +163,7 @@ Publications (Computer vision for manufacturing)
     <div class="publication-info">
         PCA-based sub-surface structure and defect analysis for Germanium-on-Nothing using nanoscale surface topography<br>
         <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
-        <b>Scientific Reports, 2022 / IF 4.6</b><br>
+        <b>Scientific Reports, 2022</b><br>
         <a href="https://www.nature.com/articles/s41598-022-11185-w">[paper]</a>
     </div>
 </div>
@@ -175,7 +175,7 @@ Publications (Computer vision for manufacturing)
     <div class="publication-info">
         Cellular and biomolecular detection based on suspended microchannel resonators<br>
         J. Ko, <b>J. Jeong</b>, S. Son, J. Lee<br>
-        <b>Biomedical Engineering Letters, 2021 / IF 4.6</b><br>
+        <b>Biomedical Engineering Letters, 2021</b><br>
         <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8486908/">[paper]</a>
     </div>
 </div>
@@ -187,7 +187,7 @@ Publications (Computer vision for manufacturing)
     <div class="publication-info">
         3D Printed Polymer Photodetectors<br>
         S. H. Park, R. Su, <b>J. Jeong</b>, S. Z. Guo K. Qiu, D. Joung, F. Meng, M. C. McAlpine<br>
-        <b>Advanced Materials, 2018 / IF 29.4</b><br>
+        <b>Advanced Materials, 2018</b><br>
         <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201803980">[paper]</a>
     </div>
 </div>

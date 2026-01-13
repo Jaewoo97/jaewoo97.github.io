@@ -107,7 +107,7 @@ Publications (Motion prediction / planning)
 Publications (Computer vision for manufacturing)
 ======
 <div style="display: flex; align-items: center;">
-    <img src='/images/advsci.png' alt='AdvSci' class="publication-image">
+    <img src='/images/advsci.jpg' alt='AdvSci' class="publication-image">
 
     <!-- Text Content -->
     <div class="publication-info">

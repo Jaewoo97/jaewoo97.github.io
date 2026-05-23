@@ -10,7 +10,7 @@ redirect_from:
 I am a 4th year Ph.D. candidate advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab (VILab)](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
 <br/>
 
-My research interests include, but are not limited to: motion prediction/planning and multimodal LLMs for perception and prediction. Ultimately, my goal is to develop AI models that understand and predict human behavior, enriching human-computer and human-robot interactions to improve everyday life. <br/>
+My research interests include, but are not limited to: human motion understanding and prediction. Ultimately, my goal is to develop AI models that understand and predict human behavior, enriching human-computer and human-robot interactions to improve everyday life. <br/>
 
 During my undergraduate years at U of Minnesota-Twin Cities, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
@@ -22,8 +22,56 @@ Awards
 - 2025 Qualcomm Innovation Fellowship Korea Finalist
 - 2024 Qualcomm Innovation Fellowship Korea Awardee
 
-Publications (Motion prediction / planning)
+Publications (Motion understanding)
 ======
+<div style="display: flex; align-items: center;">
+    <img src='/images/egovlm_teaser.pdf' alt='preprint' class="publication-image-advsci">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Ego-Human Motion Prediction with 3D-Aware LLM<br>
+        Y. Bae*, <b>J. Jeong*<b>, H. Kim*, K. Yoon<br>
+        <b>Coming soon!</b>
+        <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
+        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
+    </div>
+</div>
+<br/>
+
+======
+<div style="display: flex; align-items: center;">
+    <img src='/images/tpvideo_teaser.png' alt='preprint' class="publication-image">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Gaze-hand Trajectory Merging for Efficient Egocentric Video Understanding<br>
+        <b>J. Jeong*<b>, M. Kim*, Y. Bae, K. Yoon<br>
+        <b>Coming soon!</b>
+        <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
+        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
+    </div>
+</div>
+<br/>
+
+
+
+Publications (Motion prediction)
+======
+<div style="display: flex; align-items: center;">
+    <img src='/images/sra_teaser.pdf' alt='preprint' class="publication-image-merge">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction<br>
+        <b>J. Jeong*<b>, S. Song*, H. Park, J. Cho, Y. Bae, G. Lee, D. Park, K. Yoon<br>
+        <b>Coming soon!</b>
+        <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
+        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
+    </div>
+</div>
+
+<br/>
+
 <div style="display: flex; align-items: center;">
     <img src='/images/merge_plan_intro.png' alt='ICCV 2025' class="publication-image-merge">
 
@@ -33,21 +81,6 @@ Publications (Motion prediction / planning)
         G. Lee*, W. Jeong*, D. Park, <b>J. Jeong</b>, K. Yoon<br>
         <b>ICCV 2025 Highlight</b><br>* denotes equal contribution<br>
         <a href="https://arxiv.org/abs/2507.04790">[paper]</a>
-        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
-    </div>
-</div>
-
-<br/>
-
-<div style="display: flex; align-items: center;">
-    <img src='/images/iros_teaser.png' alt='IROS 2025' class="publication-image-kdtp">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning<br>
-        G. Lee*, D. Park*, <b>J. Jeong</b>*, K. Yoon<br>
-        <b>IROS 2025</b><br>* denotes equal contribution<br>
-        <a href="https://arxiv.org/abs/2507.12977">[paper]</a>
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
     </div>
 </div>
@@ -102,6 +135,22 @@ Publications (Motion prediction / planning)
         <a href="https://arxiv.org/abs/2312.15906">[paper]</a> <a href="https://github.com/daeheepark/TrajSDE">[code]</a>
     </div>
 </div>
+<br/>
+
+Publications (Motion planning)
+<div style="display: flex; align-items: center;">
+    <img src='/images/iros_teaser.png' alt='IROS 2025' class="publication-image-kdtp">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning<br>
+        G. Lee*, D. Park*, <b>J. Jeong</b>*, K. Yoon<br>
+        <b>IROS 2025</b><br>* denotes equal contribution<br>
+        <a href="https://arxiv.org/abs/2507.12977">[paper]</a>
+        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
+    </div>
+</div>
+
 <br/>
 
 Publications (Computer vision for manufacturing)

@@ -23,9 +23,8 @@ Awards
 - 2024 Qualcomm Innovation Fellowship Korea Awardee
 
 Publications 
-- Motion understanding
 ======
-<br/>
+- Motion understanding
 <div style="display: flex; align-items: center;">
     <img src='/images/egovlm_teaser.png' alt='preprint' class="publication-image-advsci">
 
@@ -40,8 +39,6 @@ Publications
 </div>
 <br/>
 
-======
-<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/tpvideo_teaser.png' alt='preprint' class="publication-image">
 
@@ -57,7 +54,6 @@ Publications
 <br/>
 
 - Motion prediction
-======
 <br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/sra_teaser.png' alt='preprint' class="publication-image-merge">

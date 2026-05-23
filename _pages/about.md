@@ -10,11 +10,11 @@ redirect_from:
 I am a 4th year Ph.D. candidate advised by Prof. [Kuk-Jin Yoon](https://scholar.google.co.kr/citations?user=1NvBj_gAAAAJ&hl=en) at [Visual Intelligence Lab (VILab)](https://vi.kaist.ac.kr/), Korea Advanced Institute of Science and Technology (KAIST). 
 <br/>
 
-My research interests include, but are not limited to: human motion understanding and prediction. Ultimately, my goal is to develop AI models that understand and predict human behavior, enriching human-computer and human-robot interactions to improve everyday life. <br/>
+My research interests include, but are not limited to: motion understanding, prediction, and planning. Ultimately, my goal is to develop AI models that understand and predict human behavior, enriching human-computer and human-robot interactions to improve everyday life. <br/>
 
 During my undergraduate years at U of Minnesota-Twin Cities, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260315.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260523.pdf)
 <br/>
 
 Awards
@@ -22,8 +22,10 @@ Awards
 - 2025 Qualcomm Innovation Fellowship Korea Finalist
 - 2024 Qualcomm Innovation Fellowship Korea Awardee
 
-Publications (Motion understanding)
+Publications 
+- Motion understanding
 ======
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/egovlm_teaser.pdf' alt='preprint' class="publication-image-advsci">
 
@@ -39,6 +41,7 @@ Publications (Motion understanding)
 <br/>
 
 ======
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/tpvideo_teaser.png' alt='preprint' class="publication-image">
 
@@ -53,10 +56,9 @@ Publications (Motion understanding)
 </div>
 <br/>
 
-
-
-Publications (Motion prediction)
+- Motion prediction
 ======
+<br/>
 <div style="display: flex; align-items: center;">
     <img src='/images/sra_teaser.pdf' alt='preprint' class="publication-image-merge">
 
@@ -69,23 +71,8 @@ Publications (Motion prediction)
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
     </div>
 </div>
-
 <br/>
 
-<div style="display: flex; align-items: center;">
-    <img src='/images/merge_plan_intro.png' alt='ICCV 2025' class="publication-image-merge">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Interaction-Merged Motion Planning: Effectively Leveraging Diverse Motion Datasets for Robust Planning<br>
-        G. Lee*, W. Jeong*, D. Park, <b>J. Jeong</b>, K. Yoon<br>
-        <b>ICCV 2025 Highlight</b><br>* denotes equal contribution<br>
-        <a href="https://arxiv.org/abs/2507.04790">[paper]</a>
-        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
-    </div>
-</div>
-
-<br/>
 
 <div style="display: flex; align-items: center;">
     <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image-kdtp">
@@ -137,7 +124,22 @@ Publications (Motion prediction)
 </div>
 <br/>
 
-Publications (Motion planning)
+- Motion planning
+<div style="display: flex; align-items: center;">
+    <img src='/images/merge_plan_intro.png' alt='ICCV 2025' class="publication-image-merge">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Interaction-Merged Motion Planning: Effectively Leveraging Diverse Motion Datasets for Robust Planning<br>
+        G. Lee*, W. Jeong*, D. Park, <b>J. Jeong</b>, K. Yoon<br>
+        <b>ICCV 2025 Highlight</b><br>* denotes equal contribution<br>
+        <a href="https://arxiv.org/abs/2507.04790">[paper]</a>
+        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
+    </div>
+</div>
+
+<br/>
+
 <div style="display: flex; align-items: center;">
     <img src='/images/iros_teaser.png' alt='IROS 2025' class="publication-image-kdtp">
 

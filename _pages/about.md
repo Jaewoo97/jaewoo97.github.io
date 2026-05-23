@@ -353,11 +353,15 @@ Publications
 
 Projects
 ======
-- 2023.2 ~ 2023.12 / Synthetic-to-Real domain adaptation for military object detection / LIG Nex1
+- 2026.1 ~ 2026.12 / Agentic vision langugae navigation models / GS E&C
+<br/>
+- 2025.3 ~ 2025.12 / Elderly care robot system / NRF of Korea
+<br/>
+- 2024.6 ~ 2025.6 / Vehicle trajectory prediction for autonomous vehicle systems / Hyundai Motor Group 
 <br/>
 - 2023.5 ~ 2023.12 / Surround view depth estimation for autonomous vehicle systems / Hyundai NGV
 <br/>
-- 2024.6 ~ 2025.6 / Vehicle trajectory prediction for autonomous vehicle systems / Hyundai Motor Group 
+- 2023.2 ~ 2023.12 / Synthetic-to-Real domain adaptation for military object detection / LIG Nex1
 <br/>
 
 <!-- Default Statcounter code for personal website

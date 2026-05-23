@@ -27,7 +27,7 @@ Publications
 ======
 <br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/egovlm_teaser.pdf' alt='preprint' class="publication-image-advsci">
+    <img src='/images/egovlm_teaser.png' alt='preprint' class="publication-image-advsci">
 
     <!-- Text Content -->
     <div class="publication-info">
@@ -60,7 +60,7 @@ Publications
 ======
 <br/>
 <div style="display: flex; align-items: center;">
-    <img src='/images/sra_teaser.pdf' alt='preprint' class="publication-image-merge">
+    <img src='/images/sra_teaser.png' alt='preprint' class="publication-image-merge">
 
     <!-- Text Content -->
     <div class="publication-info">

@@ -151,8 +151,9 @@ Publications
 
 <br/>
 
-Publications (Computer vision for manufacturing)
-======
+<!-- Publications (Computer vision for manufacturing)
+====== -->
+- Computer vision for manufacturing
 <div style="display: flex; align-items: center;">
     <img src='/images/advsci.jpg' alt='AdvSci' class="publication-image-advsci">
 

@@ -26,20 +26,6 @@ Publications
 ======
 - Motion understanding
 <div style="display: flex; align-items: center;">
-    <img src='/images/egovlm_teaser.png' alt='preprint' class="publication-image-advsci">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Ego-Human Motion Prediction with 3D-Aware LLM<br>
-        Y. Bae*, <b>J. Jeong*</b>, H. Kim*, K. Yoon<br>
-        <b>Coming soon!</b><br>
-        <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
-        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
-    </div>
-</div>
-<br/>
-
-<div style="display: flex; align-items: center;">
     <img src='/images/tpvideo_teaser.png' alt='preprint' class="publication-image">
 
     <!-- Text Content -->
@@ -69,6 +55,19 @@ Publications
 </div>
 <br/>
 
+<div style="display: flex; align-items: center;">
+    <img src='/images/egovlm_teaser.png' alt='preprint' class="publication-image-advsci">
+
+    <!-- Text Content -->
+    <div class="publication-info">
+        Ego-Human Motion Prediction with 3D-Aware LLM<br>
+        Y. Bae*, <b>J. Jeong*</b>, H. Kim*, K. Yoon<br>
+        <b>ECCV 2026</b><br>
+        <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
+        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
+    </div>
+</div>
+<br/>
 
 <div style="display: flex; align-items: center;">
     <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image-kdtp">

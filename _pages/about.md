@@ -31,7 +31,7 @@ Publications
     <!-- Text Content -->
     <div class="publication-info">
         Gaze-hand Trajectory Merging for Efficient Egocentric Video Understanding<br>
-        <b>J. Jeong*</b>, M. Kim*, Y. Bae, K. Yoon<br>
+        <b>J. Jeong*</b>, M. Kim*, Y. Bae*, K. Yoon<br>
         <b>Coming soon!</b><br>
         <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->

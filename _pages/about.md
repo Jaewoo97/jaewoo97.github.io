@@ -14,7 +14,7 @@ My research interests include, but are not limited to: motion understanding, pre
 
 During my undergraduate years at U of Minnesota-Twin Cities, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260523.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260619.pdf)
 <br/>
 
 Awards
@@ -62,7 +62,7 @@ Publications
     <div class="publication-info">
         Ego-Human Motion Prediction with 3D-Aware LLM<br>
         Y. Bae*, <b>J. Jeong*</b>, H. Kim*, K. Yoon<br>
-        <b>ECCV 2026</b><br>
+        <b>ECCV 2026</b><br>* denotes equal contribution<br>
         <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
         <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
     </div>

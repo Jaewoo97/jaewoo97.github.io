@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>유럽사 실력 테스트 · Examinatio Historiæ Europæ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --vellum:#EAE2CF;
+    --vellum-deep:#DCCFB2;
+    --vellum-edge:#CDBF9E;
+    --ink:#2A241B;
+    --ink-soft:#5E5544;
+    --ink-faint:#8A7E66;
+    --ultramarine:#1F4E8C;
+    --ultramarine-deep:#163A69;
+    --rubric:#A12E22;
+    --rubric-deep:#82231A;
+    --gold:#A9842C;
+    --gold-bright:#C99A3A;
+    --page:#221E17;
+    --page-2:#2C271D;
+  }
+
+  *{box-sizing:border-box;}
+
+  html,body{margin:0;padding:0;}
+
+  body{
+    min-height:100vh;
+    background:
+      radial-gradient(120% 80% at 50% -10%, var(--page-2) 0%, var(--page) 60%, #1a160f 100%);
+    color:var(--ink);
+    font-family:"Noto Serif KR", serif;
+    -webkit-font-smoothing:antialiased;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:clamp(16px,4vw,56px) clamp(12px,4vw,24px);
+  }
+
+  /* ---- The manuscript page ---- */
+  .leaf{
+    position:relative;
+    width:100%;
+    max-width:660px;
+    background:
+      radial-gradient(140% 120% at 100% 0%, rgba(0,0,0,.05), transparent 55%),
+      radial-gradient(120% 120% at 0% 100%, rgba(0,0,0,.05), transparent 55%),
+      var(--vellum);
+    /* faint vellum grain */
+    box-shadow:
+      0 1px 0 rgba(255,255,255,.35) inset,
+      0 30px 70px -20px rgba(0,0,0,.65),
+      0 4px 14px rgba(0,0,0,.35);
+    padding:clamp(26px,5vw,52px);
+    border:1px solid var(--vellum-edge);
+  }
+  /* double-rule gold border, manuscript ruling */
+  .leaf::before{
+    content:"";
+    position:absolute;
+    inset:10px;
+    border:1px solid var(--gold);
+    opacity:.55;
+    pointer-events:none;
+  }
+  .leaf::after{
+    content:"";
+    position:absolute;
+    inset:14px;
+    border:1px solid var(--gold);
+    opacity:.28;
+    pointer-events:none;
+  }
+
+  .stage{position:relative; z-index:1;}
+
+  /* ---- Eyebrow / Latin label ---- */
+  .eyebrow{
+    font-family:"Cormorant Garamond", serif;
+    text-transform:uppercase;
+    letter-spacing:.42em;
+    font-size:13px;
+    font-weight:600;
+    color:var(--rubric);
+    text-align:center;
+    margin:0 0 14px;
+    padding-left:.42em;
+  }
+
+  /* ---- Title ---- */
+  .title{
+    font-family:"Noto Serif KR", serif;
+    font-weight:700;
+    text-align:center;
+    font-size:clamp(30px,7vw,46px);
+    line-height:1.12;
+    letter-spacing:-.01em;
+    margin:0;
+    color:var(--ink);
+  }
+  .rule{
+    width:64px;height:0;
+    margin:20px auto 22px;
+    border:none;
+    border-top:2px solid var(--gold);
+    position:relative;
+  }
+  .rule::before,.rule::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    width:5px;height:5px;
+    background:var(--rubric);
+    transform:translateY(-50%) rotate(45deg);
+  }
+  .rule::before{left:-14px;}
+  .rule::after{right:-14px;}
+
+  /* ---- Intro ---- */
+  .intro{
+    font-size:17px;
+    line-height:1.85;
+    color:var(--ink-soft);
+    text-align:left;
+    max-width:46ch;
+    margin:0 auto;
+  }
+  /* illuminated drop-cap */
+  .intro .dropcap::first-letter{
+    float:left;
+    font-family:"Cormorant Garamond", serif;
+    font-weight:600;
+    font-size:4.4em;
+    line-height:.72;
+    padding:6px 12px 0 2px;
+    margin-top:6px;
+    color:var(--ultramarine);
+    text-shadow:1px 1px 0 var(--gold-bright);
+  }
+
+  .meta-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 10px;
+    justify-content:center;
+    margin:26px 0 30px;
+  }
+  .chip{
+    font-family:"Cormorant Garamond", serif;
+    font-size:14px;
+    letter-spacing:.08em;
+    color:var(--ink-soft);
+    border:1px solid var(--vellum-edge);
+    background:var(--vellum-deep);
+    padding:5px 13px;
+    border-radius:2px;
+  }
+  .chip b{color:var(--rubric); font-weight:600;}
+
+  /* ---- Buttons ---- */
+  .btn{
+    font-family:"Noto Serif KR", serif;
+    font-weight:600;
+    font-size:16px;
+    letter-spacing:.04em;
+    cursor:pointer;
+    border:1px solid var(--ultramarine-deep);
+    background:var(--ultramarine);
+    color:#F3ECD9;
+    padding:13px 26px;
+    border-radius:2px;
+    transition:background .18s ease, transform .12s ease, box-shadow .18s ease;
+    box-shadow:0 2px 0 var(--ultramarine-deep);
+  }
+  .btn:hover{background:var(--ultramarine-deep);}
+  .btn:active{transform:translateY(2px); box-shadow:0 0 0 var(--ultramarine-deep);}
+  .btn:focus-visible{outline:3px solid var(--gold-bright); outline-offset:3px;}
+  .btn[disabled]{
+    opacity:.4; cursor:not-allowed; box-shadow:none;
+    background:var(--ink-faint); border-color:var(--ink-faint);
+  }
+  .btn.ghost{
+    background:transparent;
+    color:var(--ink-soft);
+    border-color:var(--vellum-edge);
+    box-shadow:none;
+  }
+  .btn.ghost:hover{background:var(--vellum-deep); color:var(--ink);}
+
+  .center{display:flex; justify-content:center;}
+
+  /* ---- Progress ---- */
+  .progress{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:30px;
+  }
+  .progress .count{
+    font-family:"Cormorant Garamond", serif;
+    font-size:18px;
+    letter-spacing:.12em;
+    color:var(--rubric);
+    white-space:nowrap;
+    font-weight:600;
+  }
+  .progress .count .sep{color:var(--ink-faint); margin:0 2px;}
+  .track{
+    flex:1;
+    height:3px;
+    background:var(--vellum-deep);
+    border:1px solid var(--vellum-edge);
+    position:relative;
+    overflow:hidden;
+  }
+  .track .fill{
+    position:absolute; left:0; top:0; bottom:0;
+    background:linear-gradient(90deg, var(--gold), var(--gold-bright));
+    transition:width .4s cubic-bezier(.4,0,.2,1);
+  }
+
+  /* ---- Question ---- */
+  .q-block{animation:rise .42s ease both;}
+  @keyframes rise{from{opacity:0; transform:translateY(12px);} to{opacity:1; transform:none;}}
+
+  .q-head{
+    display:flex;
+    align-items:baseline;
+    gap:14px;
+    margin-bottom:6px;
+  }
+  .numeral{
+    font-family:"Cormorant Garamond", serif;
+    font-weight:600;
+    font-size:clamp(34px,9vw,52px);
+    line-height:.9;
+    color:var(--rubric);
+    text-shadow:1px 1px 0 rgba(169,132,44,.45);
+    flex-shrink:0;
+    min-width:1.4em;
+  }
+  .level{
+    font-family:"Cormorant Garamond", serif;
+    text-transform:uppercase;
+    letter-spacing:.22em;
+    font-size:11px;
+    font-weight:600;
+    padding:3px 9px;
+    border:1px solid currentColor;
+    border-radius:2px;
+    align-self:center;
+  }
+  .level.basic{color:var(--ultramarine);}
+  .level.adv{color:var(--gold);}
+  .level.hard{color:var(--rubric);}
+
+  .q-text{
+    font-size:clamp(19px,4.4vw,23px);
+    line-height:1.5;
+    font-weight:500;
+    color:var(--ink);
+    margin:4px 0 26px;
+  }
+
+  .options{display:flex; flex-direction:column; gap:11px; margin-bottom:30px;}
+  .opt{
+    display:flex;
+    align-items:flex-start;
+    gap:14px;
+    text-align:left;
+    width:100%;
+    font-family:"Noto Serif KR", serif;
+    font-size:17px;
+    line-height:1.45;
+    color:var(--ink);
+    background:var(--vellum-deep);
+    border:1px solid var(--vellum-edge);
+    border-left:3px solid var(--vellum-edge);
+    padding:14px 16px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:border-color .15s ease, background .15s ease, transform .1s ease;
+  }
+  .opt:hover{border-left-color:var(--ultramarine); background:#E4DAC0;}
+  .opt:focus-visible{outline:3px solid var(--gold-bright); outline-offset:2px;}
+  .opt .marker{
+    font-family:"Cormorant Garamond", serif;
+    font-weight:600;
+    font-size:17px;
+    color:var(--ink-faint);
+    flex-shrink:0;
+    width:1.2em;
+    text-align:center;
+    transition:color .15s ease;
+  }
+  .opt.selected{
+    background:rgba(31,78,140,.10);
+    border-color:var(--ultramarine);
+    border-left-color:var(--ultramarine);
+  }
+  .opt.selected .marker{color:var(--ultramarine);}
+
+  .nav{display:flex; justify-content:space-between; gap:12px;}
+
+  /* ---- Results ---- */
+  .result-head{text-align:center; animation:rise .5s ease both;}
+  .score-num{
+    font-family:"Cormorant Garamond", serif;
+    font-weight:600;
+    font-size:clamp(64px,18vw,104px);
+    line-height:1;
+    color:var(--ultramarine);
+    margin:8px 0 0;
+  }
+  .score-num .of{color:var(--ink-faint); font-size:.42em;}
+  .tier{
+    font-size:clamp(22px,5.5vw,30px);
+    font-weight:700;
+    color:var(--rubric);
+    margin:14px 0 6px;
+  }
+  .tier-sub{
+    color:var(--ink-soft);
+    font-size:16px;
+    line-height:1.7;
+    max-width:42ch;
+    margin:0 auto 8px;
+  }
+
+  .review-label{
+    font-family:"Cormorant Garamond", serif;
+    text-transform:uppercase;
+    letter-spacing:.3em;
+    font-size:13px;
+    font-weight:600;
+    color:var(--ink-faint);
+    text-align:center;
+    margin:34px 0 18px;
+    padding-left:.3em;
+  }
+  .rev{
+    border-top:1px solid var(--vellum-edge);
+    padding:16px 0;
+  }
+  .rev:last-child{border-bottom:1px solid var(--vellum-edge);}
+  .rev-q{
+    display:flex; gap:12px; align-items:flex-start;
+    font-size:16px; line-height:1.5; font-weight:500;
+    margin-bottom:8px;
+  }
+  .rev-mark{
+    font-family:"Cormorant Garamond", serif;
+    font-weight:700;
+    font-size:20px;
+    line-height:1.2;
+    flex-shrink:0;
+    width:1.1em; text-align:center;
+  }
+  .rev-mark.ok{color:var(--gold);}
+  .rev-mark.no{color:var(--rubric);}
+  .rev-num{
+    font-family:"Cormorant Garamond", serif;
+    color:var(--ink-faint);
+    font-weight:600;
+    margin-right:2px;
+  }
+  .rev-ans{font-size:15px; line-height:1.6; padding-left:calc(1.1em + 12px);}
+  .rev-ans .yours{color:var(--rubric-deep);}
+  .rev-ans .correct{color:var(--ultramarine-deep); font-weight:600;}
+  .rev-ans .why{display:block; color:var(--ink-soft); margin-top:5px;}
+
+  .footer-note{
+    text-align:center;
+    color:var(--ink-faint);
+    font-family:"Cormorant Garamond", serif;
+    font-size:13px;
+    letter-spacing:.1em;
+    margin-top:34px;
+  }
+
+  /* ---- Name field ---- */
+  .name-field{ max-width:360px; margin:0 auto 22px; }
+  .name-label{
+    display:block;
+    font-family:"Cormorant Garamond", serif;
+    text-transform:uppercase;
+    letter-spacing:.22em;
+    font-size:12px;
+    font-weight:600;
+    color:var(--ink-faint);
+    text-align:center;
+    margin-bottom:10px;
+    padding-left:.22em;
+  }
+  .name-input{
+    width:100%;
+    font-family:"Noto Serif KR", serif;
+    font-size:18px;
+    text-align:center;
+    color:var(--ink);
+    background:var(--vellum-deep);
+    border:1px solid var(--vellum-edge);
+    border-bottom:2px solid var(--gold);
+    border-radius:2px;
+    padding:12px 14px;
+    transition:border-color .15s ease, background .15s ease;
+  }
+  .name-input::placeholder{ color:var(--ink-faint); opacity:.7; }
+  .name-input:focus{ outline:none; border-bottom-color:var(--ultramarine); background:#E4DAC0; }
+  .start-actions{ display:flex; flex-direction:column; align-items:center; gap:12px; }
+
+  /* ---- Leaderboard ---- */
+  .lb{ list-style:none; margin:0; padding:0; }
+  .lb-row{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    padding:12px 14px;
+    border-bottom:1px solid var(--vellum-edge);
+  }
+  .lb-row:first-child{ border-top:1px solid var(--vellum-edge); }
+  .lb-rank{
+    font-family:"Cormorant Garamond", serif;
+    font-weight:600;
+    font-size:20px;
+    color:var(--ink-faint);
+    min-width:1.7em;
+    text-align:center;
+    flex-shrink:0;
+  }
+  .lb-name{
+    flex:1;
+    min-width:0;
+    font-size:17px;
+    font-weight:500;
+    color:var(--ink);
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .lb-score{
+    font-family:"Cormorant Garamond", serif;
+    font-weight:600;
+    font-size:20px;
+    color:var(--ultramarine);
+    flex-shrink:0;
+  }
+  .lb-score .lb-of{ color:var(--ink-faint); font-size:.7em; }
+  .lb-row.top1 .lb-rank{ color:var(--gold); text-shadow:1px 1px 0 rgba(169,132,44,.4); }
+  .lb-row.top2 .lb-rank{ color:var(--ink-soft); }
+  .lb-row.top3 .lb-rank{ color:var(--rubric); }
+  .lb-row.me{ background:rgba(31,78,140,.10); box-shadow:inset 3px 0 0 var(--ultramarine); }
+  .lb-row.me .lb-name::after{
+    content:"나";
+    font-family:"Noto Serif KR", serif;
+    font-size:11px;
+    font-weight:600;
+    color:#F3ECD9;
+    background:var(--ultramarine);
+    border-radius:2px;
+    padding:1px 6px;
+    margin-left:8px;
+    vertical-align:middle;
+  }
+  .lb-loading,.lb-empty,.lb-error,.lb-demo{
+    font-family:"Cormorant Garamond", serif;
+    text-align:center;
+    color:var(--ink-faint);
+    font-size:15px;
+    letter-spacing:.04em;
+    padding:18px 0;
+  }
+  .lb-error{ color:var(--rubric); }
+  .lb-demo{ color:var(--rubric); padding:6px 0 14px; font-size:13px; letter-spacing:.06em; }
+
+  .hidden{display:none !important;}
+
+  @media (max-width:480px){
+    .nav .btn{flex:1;}
+    .q-head{gap:10px;}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important; transition:none !important;}
+  }
+</style>
+</head>
+<body>
+  <main class="leaf">
+    <div class="stage">
+
+      <!-- ============ START ============ -->
+      <section id="screen-start" class="stage-screen">
+        <p class="eyebrow">Examinatio · Historia Europæ</p>
+        <h1 class="title">유럽사 실력 테스트</h1>
+        <hr class="rule">
+        <p class="intro"><span class="dropcap">고대 로마의 멸망부터 현대까지, 유럽 역사를 얼마나 깊이 알고 있는지 가려보는 16문항입니다. 캐넌급 기본 문제로 시작해 뒤로 갈수록 어려워지며, 마지막 네 문항은 사학자들이 지금도 다투는 사학사(史學史) deep cut입니다.</span></p>
+
+        <div class="meta-row">
+          <span class="chip"><b>16</b> 문항</span>
+          <span class="chip">객관식 · 4지선다</span>
+          <span class="chip">난이도 <b>상승</b></span>
+          <span class="chip">정답은 마지막에 한번에</span>
+        </div>
+
+        <div class="name-field">
+          <label class="name-label" for="player-name">응시자 이름 · Nomen</label>
+          <input id="player-name" class="name-input" type="text" maxlength="24"
+                 placeholder="이름을 입력하세요" autocomplete="off" spellcheck="false">
+        </div>
+
+        <div class="start-actions">
+          <button class="btn" id="start-btn" disabled>시작하기 &nbsp;→</button>
+          <button class="btn ghost" id="view-board-btn">순위표 보기</button>
+        </div>
+      </section>
+
+      <!-- ============ QUIZ ============ -->
+      <section id="screen-quiz" class="stage-screen hidden">
+        <div class="progress">
+          <span class="count"><span id="cur-num">I</span><span class="sep">/</span><span id="total-num">XVI</span></span>
+          <div class="track"><div class="fill" id="prog-fill" style="width:0%"></div></div>
+        </div>
+
+        <div class="q-block" id="q-block"><!-- injected --></div>
+
+        <div class="nav">
+          <button class="btn ghost" id="prev-btn">←&nbsp; 이전</button>
+          <button class="btn" id="next-btn" disabled>다음 &nbsp;→</button>
+        </div>
+      </section>
+
+      <!-- ============ RESULTS ============ -->
+      <section id="screen-result" class="stage-screen hidden">
+        <div class="result-head">
+          <p class="eyebrow">Sententia · 결과</p>
+          <div class="score-num"><span id="score-val">0</span><span class="of"> / 16</span></div>
+          <h2 class="tier" id="tier-title">—</h2>
+          <p class="tier-sub" id="tier-sub">—</p>
+        </div>
+
+        <p class="review-label">— 순위표 · Tabula Honoris —</p>
+        <div id="result-board"><!-- injected --></div>
+
+        <p class="review-label">— 문항별 해설 —</p>
+        <div id="review-list"><!-- injected --></div>
+
+        <div class="center" style="margin-top:30px; gap:12px; flex-wrap:wrap;">
+          <button class="btn ghost" id="home-btn">↺&nbsp; 처음으로</button>
+          <button class="btn ghost" id="retry-btn">↻&nbsp; 다시 풀기</button>
+        </div>
+
+        <p class="footer-note">Historia magistra vitæ</p>
+      </section>
+
+      <!-- ============ LEADERBOARD ============ -->
+      <section id="screen-board" class="stage-screen hidden">
+        <p class="eyebrow">Tabula Honoris · 순위표</p>
+        <h1 class="title" style="font-size:clamp(26px,6vw,38px);">순위표</h1>
+        <hr class="rule">
+        <div id="board-list"><!-- injected --></div>
+        <div class="center" style="margin-top:30px; gap:12px; flex-wrap:wrap;">
+          <button class="btn ghost" id="board-back-btn">←&nbsp; 처음으로</button>
+          <button class="btn" id="board-refresh-btn">↻&nbsp; 새로고침</button>
+        </div>
+        <p class="footer-note">Historia magistra vitæ</p>
+      </section>
+
+    </div>
+  </main>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ============================================================
+     SUPABASE — fill these two in. See setup steps below the file.
+     Until filled, the leaderboard runs in local "demo mode"
+     (scores save only in this browser, so you can test the UI).
+     ============================================================ */
+  const SUPABASE_URL      = "https://YOUR-PROJECT.supabase.co";
+  const SUPABASE_ANON_KEY = "YOUR-ANON-KEY";
+  const TABLE             = "scores";
+  /* ============================================================ */
+
+  function lbConfigured(){
+    return SUPABASE_URL && SUPABASE_ANON_KEY
+      && SUPABASE_URL.indexOf("YOUR-PROJECT") === -1
+      && SUPABASE_ANON_KEY.indexOf("YOUR-ANON-KEY") === -1;
+  }
+
+  // Save one attempt. Cloud when configured, else this browser only.
+  async function submitScore(name, score){
+    if(!lbConfigured()){
+      const arr = JSON.parse(localStorage.getItem("euroquiz_scores") || "[]");
+      arr.push({ name:name, score:score, created_at:new Date().toISOString() });
+      localStorage.setItem("euroquiz_scores", JSON.stringify(arr));
+      return;
+    }
+    const res = await fetch(SUPABASE_URL + "/rest/v1/" + TABLE, {
+      method:"POST",
+      headers:{
+        "apikey": SUPABASE_ANON_KEY,
+        "Authorization": "Bearer " + SUPABASE_ANON_KEY,
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal"
+      },
+      body: JSON.stringify({ name:name, score:score, total:TOTAL })
+    });
+    if(!res.ok) throw new Error("submit failed: " + res.status);
+  }
+
+  // Returns {demo, rows:[{name,score,created_at}]}.
+  async function fetchScores(){
+    if(!lbConfigured()){
+      return { demo:true, rows: JSON.parse(localStorage.getItem("euroquiz_scores") || "[]") };
+    }
+    const url = SUPABASE_URL + "/rest/v1/" + TABLE
+              + "?select=name,score,created_at&order=score.desc,created_at.asc&limit=500";
+    const res = await fetch(url, {
+      headers:{ "apikey": SUPABASE_ANON_KEY, "Authorization": "Bearer " + SUPABASE_ANON_KEY }
+    });
+    if(!res.ok) throw new Error("fetch failed: " + res.status);
+    return { demo:false, rows: await res.json() };
+  }
+
+  // Keep each player's best score only (ties → earliest).
+  function bestPerName(rows){
+    const sorted = rows.slice().sort(function(a,b){
+      if(b.score !== a.score) return b.score - a.score;
+      return String(a.created_at||"").localeCompare(String(b.created_at||""));
+    });
+    const seen = {}, out = [];
+    sorted.forEach(function(r){
+      const key = String(r.name||"").trim().toLowerCase();
+      if(seen[key]) return;
+      seen[key] = true;
+      out.push(r);
+    });
+    return out;
+  }
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, function(c){
+      return ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", "\"":"&quot;", "'":"&#39;" })[c];
+    });
+  }
+
+  function renderBoard(targetEl, rows, opts){
+    opts = opts || {};
+    const best = bestPerName(rows);
+    if(best.length === 0){
+      targetEl.innerHTML = '<p class="lb-empty">아직 기록이 없습니다. 첫 도전자가 되어 보세요.</p>';
+      return;
+    }
+    const hi = String(opts.highlightName||"").trim().toLowerCase();
+    let html = opts.demo
+      ? '<p class="lb-demo">데모 모드 · Supabase 미설정 (점수가 이 기기에만 저장됩니다)</p>' : "";
+    if(opts.note) html += '<p class="lb-error">' + escapeHtml(opts.note) + '</p>';
+    html += '<ol class="lb">';
+    best.forEach(function(r,i){
+      const me = hi && String(r.name||"").trim().toLowerCase() === hi ? " me" : "";
+      const top = i < 3 ? " top" + (i+1) : "";
+      html += '<li class="lb-row' + me + top + '">'
+        +   '<span class="lb-rank">' + (i+1) + '</span>'
+        +   '<span class="lb-name">' + escapeHtml(r.name || "익명") + '</span>'
+        +   '<span class="lb-score">' + r.score + '<span class="lb-of">/' + TOTAL + '</span></span>'
+        + '</li>';
+    });
+    html += '</ol>';
+    targetEl.innerHTML = html;
+  }
+
+  // Fetch + render with loading/error states.
+  async function loadBoard(targetEl, highlightName, note){
+    targetEl.innerHTML = '<p class="lb-loading">순위표를 불러오는 중…</p>';
+    try{
+      const data = await fetchScores();
+      renderBoard(targetEl, data.rows, { highlightName:highlightName, demo:data.demo, note:note });
+    }catch(e){
+      targetEl.innerHTML = '<p class="lb-error">순위표를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.</p>';
+    }
+  }
+
+  const ROMAN = ["","I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII","XIII","XIV","XV","XVI","XVII","XVIII","XIX","XX"];
+  const LETTERS = ["A","B","C","D","E"];
+
+  const QUESTIONS = [
+    {
+      level:"basic",
+      q:"서로마 제국이 사실상 멸망한 해, 즉 마지막 황제가 폐위된 연도는?",
+      options:["410년","476년","395년","568년"],
+      answer:1,
+      why:"게르만 용병대장 오도아케르가 마지막 서로마 황제 로물루스 아우구스툴루스를 폐위한 해. 410년은 알라리크의 로마 약탈, 395년은 제국의 동·서 분할, 568년은 랑고바르드의 이탈리아 침입이다."
+    },
+    {
+      level:"basic",
+      q:"1066년 헤이스팅스 전투에서 잉글랜드를 정복한 인물은?",
+      options:["사자심왕 리처드","참회왕 에드워드","정복왕 윌리엄","단순왕 샤를"],
+      answer:2,
+      why:"노르망디 공작 윌리엄이 해럴드 2세를 꺾고 잉글랜드를 정복해 노르만 왕조를 열었다. 참회왕 에드워드는 그 직전의 잉글랜드 왕이다."
+    },
+    {
+      level:"basic",
+      q:"1517년, 면벌부 판매를 비판한 「95개조 반박문」으로 종교개혁의 도화선이 된 인물은?",
+      options:["장 칼뱅","마르틴 루터","울리히 츠빙글리","얀 후스"],
+      answer:1,
+      why:"마르틴 루터의 95개조가 종교개혁을 촉발했다. 칼뱅·츠빙글리는 후대의 개혁가, 얀 후스는 한 세기 앞선 선구자다."
+    },
+    {
+      level:"basic",
+      q:"1789년 7월 14일, 프랑스 혁명의 시작을 상징하는 사건은?",
+      options:["테르미도르 반동","바스티유 습격","발미 전투","테니스코트 서약"],
+      answer:1,
+      why:"파리 시민의 바스티유 감옥 습격이 혁명의 상징적 출발점이다. 테니스코트 서약은 그 직전, 발미 전투(1792)와 테르미도르 반동(1794)은 이후의 사건이다."
+    },
+    {
+      level:"adv",
+      q:"1648년 베스트팔렌 조약이 종결시킨, 신성로마제국을 황폐화한 전쟁은?",
+      options:["백년전쟁","스페인 왕위계승전쟁","30년전쟁","7년전쟁"],
+      answer:2,
+      why:"베스트팔렌 조약은 30년전쟁(1618–1648)을 끝내고 근대 주권국가 체제의 기틀을 놓은 것으로 평가된다."
+    },
+    {
+      level:"adv",
+      q:"\"철과 피\"를 내세워 독일 통일을 이끈 프로이센의 재상은?",
+      options:["메테르니히","카보우르","비스마르크","가리발디"],
+      answer:2,
+      why:"오토 폰 비스마르크가 독일 통일을 주도했다. 카보우르와 가리발디는 같은 시기 이탈리아 통일의 주역으로, 흔히 혼동을 노리는 선택지다."
+    },
+    {
+      level:"adv",
+      q:"「로마법 대전(Corpus Juris Civilis)」을 편찬하고 하기아 소피아를 재건한 동로마 황제는?",
+      options:["콘스탄티누스 1세","유스티니아누스 1세","헤라클리우스","바실리우스 2세"],
+      answer:1,
+      why:"유스티니아누스 1세는 법전 편찬, 하기아 소피아 재건, 서방 영토 일부 수복으로 유명하다."
+    },
+    {
+      level:"adv",
+      q:"1534년 수장령(Act of Supremacy)으로 로마 교회와 결별하고 잉글랜드 교회의 수장이 된 국왕은?",
+      options:["헨리 7세","에드워드 6세","헨리 8세","엘리자베스 1세"],
+      answer:2,
+      why:"헨리 8세가 수장령으로 국왕을 교회의 수장으로 선포하며 영국 국교회를 세웠다."
+    },
+    {
+      level:"adv",
+      q:"서기 800년 성탄절, 교황 레오 3세에게 '로마인의 황제'로 대관된 인물은?",
+      options:["클로비스","카를 마르텔","카롤루스 대제(샤를마뉴)","오토 1세"],
+      answer:2,
+      why:"샤를마뉴가 800년에 대관되었다. 카를 마르텔은 732년 투르 전투의 그의 조부, 오토 1세는 962년 신성로마제국 황제다."
+    },
+    {
+      level:"adv",
+      q:"1차 세계대전의 도화선이 된 1914년 사라예보 암살의 피해자는?",
+      options:["프란츠 요제프 황제","프란츠 페르디난트 대공","빌헬름 2세","차르 니콜라이 2세"],
+      answer:1,
+      why:"오스트리아 황위 계승자 프란츠 페르디난트 대공 부부가 가브릴로 프린치프에게 암살당하면서 전쟁이 촉발되었다."
+    },
+    {
+      level:"adv",
+      q:"1944년 6월 6일 'D-데이', 연합군의 노르망디 상륙작전 암호명은?",
+      options:["마켓가든","오버로드(Overlord)","바르바로사","횃불(Torch)"],
+      answer:1,
+      why:"상륙작전의 암호명은 오버로드다. 바르바로사는 독일의 소련 침공, 횃불은 북아프리카 상륙 작전이다."
+    },
+    {
+      level:"adv",
+      q:"1347년 유럽을 강타해 인구의 상당수를 휩쓴 흑사병(Black Death)의 원인 병원체는?",
+      options:["콜레라균 (Vibrio cholerae)","페스트균 (Yersinia pestis)","천연두 바이러스 (Variola)","발진티푸스균 (Rickettsia)"],
+      answer:1,
+      why:"흑사병의 원인은 페스트균 Yersinia pestis다. 2022년 『Nature』 연구는 고(古)DNA 분석으로 그 기원을 1330년대 말 톈산 산맥 일대로 지목하기도 했다."
+    },
+    {
+      level:"hard",
+      q:"\"고대 후기(Late Antiquity)\" 개념을 정립하며, 로마의 급격한 '멸망'보다 점진적 '변형·연속'을 강조한 역사가는?",
+      options:["에드워드 기번","페르낭 브로델","피터 브라운","야코프 부르크하르트"],
+      answer:2,
+      why:"피터 브라운이 『고대 후기의 세계』로 'Late Antiquity' 패러다임을 세웠다. 기번은 정반대로 '쇠망'을 그린 18세기 역사가다."
+    },
+    {
+      level:"hard",
+      q:"\"마호메트 없이 샤를마뉴 없다\"—로마 세계를 끝낸 것은 게르만족이 아니라 7세기 이슬람 팽창에 따른 지중해 교역 단절이라 주장한 역사가는?",
+      options:["앙리 피렌","마르크 블로크","마이클 매코믹","크리스 위컴"],
+      answer:0,
+      why:"이른바 '피렌 명제'다. 앙리 피렌은 지중해 교역망의 붕괴가 유럽의 중심을 북쪽으로 옮겼다고 보았다."
+    },
+    {
+      level:"hard",
+      q:"『Fiefs and Vassals』(1994)에서 \"봉건제(feudalism)\"는 후대 법학자가 만든 인위적 구성물이라며 용어 자체의 폐기·재검토를 주장한 역사가는?",
+      options:["마르크 블로크","조르주 뒤비","수전 레이놀즈","자크 르 고프"],
+      answer:2,
+      why:"수전 레이놀즈가 봉건제 개념의 실재성에 근본적 의문을 제기했다. 블로크의 『봉건사회』와는 정반대 입장이다."
+    },
+    {
+      level:"hard",
+      q:"2021년 『Nature』 연구가 993년 거대 태양폭풍이 남긴 나이테 신호로 확정한, 바이킹의 북미(랑스 오 메도즈) 정착 연도는?",
+      options:["986년","1000년","1021년","1042년"],
+      answer:2,
+      why:"993–994년 우주선 폭증이 나이테에 남긴 방사성탄소 급증 신호를 기준으로, 정착 시점을 정확히 1021년으로 못 박았다. 콜럼버스보다 471년 앞선다."
+    }
+  ];
+
+  const TOTAL = QUESTIONS.length; // 16, source of truth
+
+  const TIERS = [
+    {min:0,  max:5,  title:"입문자",   sub:"유럽사의 큰 줄기부터 다시 한 바퀴. 시대의 뼈대를 잡으면 금방 재밌어집니다."},
+    {min:6,  max:9,  title:"애호가",   sub:"기본기는 탄탄합니다. 캐넌은 거의 다 알고, 이제 세부와 사학사로 넘어갈 단계."},
+    {min:10, max:12, title:"준전문가", sub:"상당한 내공입니다. 어지간한 디테일과 함정 선택지를 모두 통과했습니다."},
+    {min:13, max:15, title:"마스터",   sub:"역사 덕후 인증. 사학자들이 다투는 영역까지 따라옵니다."},
+    {min:16, max:16, title:"만점 · 사학과 의심", sub:"혹시 전공자… 아니면 교수님이신가요? 흠잡을 데가 없습니다."}
+  ];
+
+  // ---- State ----
+  const answers = new Array(TOTAL).fill(null);
+  let idx = 0;
+  let playerName = "";
+
+  // ---- Elements ----
+  const screens = {
+    start: document.getElementById("screen-start"),
+    quiz:  document.getElementById("screen-quiz"),
+    result:document.getElementById("screen-result"),
+    board: document.getElementById("screen-board")
+  };
+  const nameInput = document.getElementById("player-name");
+  const startBtn  = document.getElementById("start-btn");
+  const qBlock   = document.getElementById("q-block");
+  const curNum   = document.getElementById("cur-num");
+  const totalNum = document.getElementById("total-num");
+  const progFill = document.getElementById("prog-fill");
+  const prevBtn  = document.getElementById("prev-btn");
+  const nextBtn  = document.getElementById("next-btn");
+
+  totalNum.textContent = ROMAN[TOTAL];
+
+  function show(name){
+    Object.values(screens).forEach(s=>s.classList.add("hidden"));
+    screens[name].classList.remove("hidden");
+    window.scrollTo({top:0, behavior:"smooth"});
+  }
+
+  function levelMeta(l){
+    if(l==="basic") return {cls:"basic", label:"기본"};
+    if(l==="adv")   return {cls:"adv",   label:"심화"};
+    return {cls:"hard", label:"난해"};
+  }
+
+  function renderQuestion(){
+    const item = QUESTIONS[idx];
+    const lm = levelMeta(item.level);
+    curNum.textContent = ROMAN[idx+1];
+    progFill.style.width = ((idx) / TOTAL * 100) + "%";
+
+    let opts = "";
+    item.options.forEach((o,i)=>{
+      const sel = answers[idx]===i ? " selected" : "";
+      opts += '<button class="opt'+sel+'" data-i="'+i+'">'
+            +   '<span class="marker">'+LETTERS[i]+'</span>'
+            +   '<span class="opt-text">'+o+'</span>'
+            + '</button>';
+    });
+
+    qBlock.innerHTML =
+      '<div class="q-head">'
+      + '<span class="numeral">'+ROMAN[idx+1]+'</span>'
+      + '<span class="level '+lm.cls+'">'+lm.label+'</span>'
+      + '</div>'
+      + '<p class="q-text">'+item.q+'</p>'
+      + '<div class="options">'+opts+'</div>';
+
+    qBlock.querySelectorAll(".opt").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        answers[idx] = parseInt(btn.dataset.i,10);
+        qBlock.querySelectorAll(".opt").forEach(b=>b.classList.remove("selected"));
+        btn.classList.add("selected");
+        nextBtn.disabled = false;
+      });
+    });
+
+    prevBtn.style.visibility = idx===0 ? "hidden" : "visible";
+    nextBtn.disabled = answers[idx]===null;
+    nextBtn.textContent = idx===TOTAL-1 ? "결과 보기  →" : "다음  →";
+  }
+
+  function renderResult(){
+    let score = 0;
+    QUESTIONS.forEach((item,i)=>{ if(answers[i]===item.answer) score++; });
+
+    document.getElementById("score-val").textContent = score;
+    const tier = TIERS.find(t=> score>=t.min && score<=t.max) || TIERS[0];
+    document.getElementById("tier-title").textContent = tier.title;
+    document.getElementById("tier-sub").textContent = tier.sub;
+
+    let html = "";
+    QUESTIONS.forEach((item,i)=>{
+      const correct = answers[i]===item.answer;
+      const yourAns = answers[i]===null ? "—" : (LETTERS[answers[i]]+". "+item.options[answers[i]]);
+      const corAns  = LETTERS[item.answer]+". "+item.options[item.answer];
+      html +=
+        '<div class="rev">'
+        + '<div class="rev-q">'
+        +   '<span class="rev-mark '+(correct?"ok":"no")+'">'+(correct?"✓":"✗")+'</span>'
+        +   '<span><span class="rev-num">'+ROMAN[i+1]+'.</span> '+item.q+'</span>'
+        + '</div>'
+        + '<div class="rev-ans">'
+        +   (correct
+              ? '<span class="correct">정답 — '+corAns+'</span>'
+              : '<span class="yours">내 답 — '+yourAns+'</span> &nbsp;·&nbsp; <span class="correct">정답 — '+corAns+'</span>')
+        +   '<span class="why">'+item.why+'</span>'
+        + '</div>'
+        + '</div>';
+    });
+    document.getElementById("review-list").innerHTML = html;
+
+    progFill.style.width = "100%";
+    show("result");
+
+    // Record this attempt, then show the standings (highlighting the player).
+    const board = document.getElementById("result-board");
+    board.innerHTML = '<p class="lb-loading">점수를 등록하고 순위표를 불러오는 중…</p>';
+    (async ()=>{
+      let note = "";
+      try{ await submitScore(playerName, score); }
+      catch(e){ note = "점수 등록에 실패했지만, 현재 순위표는 아래와 같습니다."; }
+      await loadBoard(board, playerName, note);
+    })();
+  }
+
+  // ---- Events ----
+  // Prefill the last-used name so returning players don't retype.
+  nameInput.value = localStorage.getItem("euroquiz_name") || "";
+  startBtn.disabled = nameInput.value.trim() === "";
+
+  nameInput.addEventListener("input", ()=>{
+    startBtn.disabled = nameInput.value.trim() === "";
+  });
+  nameInput.addEventListener("keydown", (e)=>{
+    if(e.key === "Enter" && nameInput.value.trim() !== "") startQuiz();
+  });
+
+  function startQuiz(){
+    playerName = nameInput.value.trim();
+    if(!playerName) return;
+    localStorage.setItem("euroquiz_name", playerName);
+    for(let i=0;i<TOTAL;i++) answers[i]=null;
+    idx = 0;
+    renderQuestion();
+    show("quiz");
+  }
+
+  startBtn.addEventListener("click", startQuiz);
+
+  document.getElementById("view-board-btn").addEventListener("click", ()=>{
+    show("board");
+    loadBoard(document.getElementById("board-list"), nameInput.value.trim());
+  });
+
+  document.getElementById("board-back-btn").addEventListener("click", ()=> show("start"));
+  document.getElementById("board-refresh-btn").addEventListener("click", ()=>{
+    loadBoard(document.getElementById("board-list"), playerName || nameInput.value.trim());
+  });
+  document.getElementById("home-btn").addEventListener("click", ()=> show("start"));
+
+  nextBtn.addEventListener("click", ()=>{
+    if(answers[idx]===null) return;
+    if(idx===TOTAL-1){ renderResult(); return; }
+    idx++;
+    renderQuestion();
+    window.scrollTo({top:0, behavior:"smooth"});
+  });
+
+  prevBtn.addEventListener("click", ()=>{
+    if(idx===0) return;
+    idx--;
+    renderQuestion();
+    window.scrollTo({top:0, behavior:"smooth"});
+  });
+
+  document.getElementById("retry-btn").addEventListener("click", ()=>{
+    progFill.style.width="0%";
+    startQuiz();
+  });
+
+})();
+</script>
+</body>
+</html>

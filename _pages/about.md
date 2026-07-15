@@ -14,354 +14,228 @@ My research interests include, but are not limited to: motion understanding, pre
 
 During my undergraduate years at U of Minnesota-Twin Cities, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260708.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260716.pdf)
 <br/>
 
-Awards
-======
-- 2025 Qualcomm Innovation Fellowship Korea Finalist
-- 2024 Qualcomm Innovation Fellowship Korea Awardee
+<h2 class="section-title">Awards</h2>
 
-Publications 
-======
-- Motion understanding
-<div style="display: flex; align-items: center;">
-    <img src='/images/tpvideo_teaser.png' alt='preprint' class="publication-image">
+<ul class="awards">
+  <li>2025 Qualcomm Innovation Fellowship Korea Finalist</li>
+  <li>2024 Qualcomm Innovation Fellowship Korea Awardee</li>
+</ul>
 
-    <!-- Text Content -->
-    <div class="publication-info">
-        Gaze-hand Trajectory Merging for Efficient Egocentric Video Understanding<br>
-        <b>J. Jeong*</b>, M. Kim*, Y. Bae*, K. Yoon<br>
-        <b>Coming soon!</b><br>
-        <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
-        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
-    </div>
-</div>
-<br/>
+<h2 class="section-title">Publications</h2>
 
-- Motion prediction
-<br/>
-<div style="display: flex; align-items: center;">
-    <img src='/images/sra_teaser.png' alt='preprint' class="publication-image-merge">
+<div class="pub-group">Motion understanding</div>
 
-    <!-- Text Content -->
-    <div class="publication-info">
-        SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction<br>
-        <b>J. Jeong*</b>, S. Song*, H. Park, J. Cho, Y. Bae, G. Lee, D. Park, K. Yoon<br>
-        <b>Coming soon!</b><br>
-        <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
-        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
-    </div>
-</div>
-<br/>
-
-<div style="display: flex; align-items: center;">
-    <img src='/images/egovlm_teaser.png' alt='preprint' class="publication-image-advsci">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Ego-Human Motion Prediction with 3D-Aware LLM<br>
-        Y. Bae*, <b>J. Jeong*</b>, H. Kim*, K. Yoon<br>
-        <b>ECCV 2026</b><br>* denotes equal contribution<br>
-        <!-- <a href="https://arxiv.org/abs/2507.04790">[paper]</a> -->
-        <a href="https://jaewoo97.github.io/assets/ECCV_2026_Ego_human_Motion_Prediction_with_3D_aware_LLM__Arxiv_.pdf">[paper]</a> <a href="https://github.com/jinyubae/Ego3DLM">[code]</a> <a href="https://jaewoo97.github.io/Ego3DLM/">[project page]</a>
-    </div>
-</div>
-<br/>
-
-<div style="display: flex; align-items: center;">
-    <img src='/images/teaser_sizeUp.png' alt='CVPR 2025' class="publication-image-kdtp">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Multi-modal Knowledge Distillation-based Human Trajectory Forecasting<br>
-        <b>J. Jeong</b>, S. Lee, D. Park, G. Lee, K. Yoon<br>
-        <b>CVPR 2025</b><br>
-        <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a>
-        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
-    </div>
-</div>
-<br/>
-<div style="display: flex; align-items: center;">
-    <img src='/images/final_t2p_main.gif' alt='CVPR 2024 Highlight' class="publication-image-t2p">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning<br>
-        <b>J. Jeong</b>*, D. Park*, K. Yoon<br>
-        <b>CVPR 2024 Highlight</b><br>* denotes equal contribution<br>
-        <a href="https://arxiv.org/abs/2404.05218">[paper]</a> <a href="https://github.com/Jaewoo97/t2p">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a>
-    </div>
-</div>
-<br/>
-<div style="display: flex; align-items: center;">
-    <img src='/images/TTTT.png' alt='CVPR 2024' class="publication-image">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        T4P: Test-Time Training of Trajectory Prediction via Masked Autoencoder and Actor-specific Token Memory<br>
-        D. Park, J. Jeong, S. Yoon, <b>J. Jeong</b>, K. Yoon<br>
-        <b>CVPR 2024</b><br>
-        <a href="https://arxiv.org/abs/2403.10052">[paper]</a> <a href="https://github.com/daeheepark/T4P">[code]</a>
-    </div>
-</div>
-<br/>
-<div style="display: flex; align-items: center;">
-    <img src='/images/aaai.png' alt='AAAI 2024' class="publication-image">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Improving Transferability for Cross-domain Trajectory Prediction via Neural Stochastic Differential Equation<br>
-        D. Park, <b>J. Jeong</b>, K. Yoon<br>
-        <b>AAAI 2024</b><br>
-        <a href="https://arxiv.org/abs/2312.15906">[paper]</a> <a href="https://github.com/daeheepark/TrajSDE">[code]</a>
-    </div>
-</div>
-<br/>
-
-- Motion planning
-<div style="display: flex; align-items: center;">
-    <img src='/images/merge_plan_intro.png' alt='ICCV 2025' class="publication-image-merge">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Interaction-Merged Motion Planning: Effectively Leveraging Diverse Motion Datasets for Robust Planning<br>
-        G. Lee*, W. Jeong*, D. Park, <b>J. Jeong</b>, K. Yoon<br>
-        <b>ICCV 2025 Highlight</b><br>* denotes equal contribution<br>
-        <a href="https://arxiv.org/abs/2507.04790">[paper]</a>
-        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
-    </div>
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/tpvideo_teaser.png" alt="Gaze-hand Trajectory Merging teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Gaze-hand Trajectory Merging for Efficient Egocentric Video Understanding</div>
+    <div class="pub__authors"><b>J. Jeong*</b>, M. Kim*, Y. Bae*, K. Yoon</div>
+    <div class="pub__meta"><span class="pub__venue pub__venue--soon">Coming soon!</span></div>
+  </div>
 </div>
 
-<br/>
+<div class="pub-group">Motion prediction</div>
 
-<div style="display: flex; align-items: center;">
-    <img src='/images/iros_teaser.png' alt='IROS 2025' class="publication-image-kdtp">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning<br>
-        G. Lee*, D. Park*, <b>J. Jeong</b>*, K. Yoon<br>
-        <b>IROS 2025</b><br>* denotes equal contribution<br>
-        <a href="https://arxiv.org/abs/2507.12977">[paper]</a>
-        <!-- <a href="http://arxiv.org/abs/2503.22201">[paper]</a> <a href="https://github.com/Jaewoo97/KDTF">[code]</a> <a href="https://jaewoo97.github.io/t2p_/">[project page]</a> -->
-    </div>
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/sra_teaser.png" alt="SRA teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction</div>
+    <div class="pub__authors"><b>J. Jeong*</b>, S. Song*, H. Park, J. Cho, Y. Bae, G. Lee, D. Park, K. Yoon</div>
+    <div class="pub__meta"><span class="pub__venue pub__venue--soon">Coming soon!</span></div>
+  </div>
 </div>
 
-<br/>
-
-<!-- Publications (Computer vision for manufacturing)
-====== -->
-- Computer vision for manufacturing
-<div style="display: flex; align-items: center;">
-    <img src='/images/advsci.jpg' alt='AdvSci' class="publication-image-advsci">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework<br>
-        D. Lee, S. Roh, <b>J. Jeong</b>, K. Yoon, J. Lee, and Y. Nam<br>
-        <b>Advanced Science 2026</b><br>
-        <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202521372">[paper]</a>
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/egovlm_teaser.png" alt="Ego-Human Motion Prediction teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Ego-Human Motion Prediction with 3D-Aware LLM</div>
+    <div class="pub__authors">Y. Bae*, <b>J. Jeong*</b>, H. Kim*, K. Yoon</div>
+    <div class="pub__meta"><span class="pub__venue">ECCV 2026</span><span class="pub__note">* denotes equal contribution</span></div>
+    <div class="pub__links">
+      <a href="https://jaewoo97.github.io/assets/ECCV_2026_Ego_human_Motion_Prediction_with_3D_aware_LLM__Arxiv_.pdf"><i class="fa-solid fa-file-lines"></i>Paper</a>
+      <a href="https://github.com/jinyubae/Ego3DLM"><i class="fa-brands fa-github"></i>Code</a>
+      <a href="https://jaewoo97.github.io/Ego3DLM/"><i class="fa-solid fa-globe"></i>Project page</a>
     </div>
+  </div>
 </div>
-<br/>
 
-<div style="display: flex; align-items: center;">
-    <img src='/images/nems.png' alt='NEMS 2023' class="publication-image">
-
-    <!-- Text Content -->
-    <div class="publication-info">
-        Near-infrared inspection and machine learning-based prediction for semiconductor membrane cavity structures<br>
-        M. Jeong, <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
-        <b>NEMS 2023</b><br>
-        <a href="https://ieee-nems2023.org/board/article/956">[proceeding]</a>
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/teaser_sizeUp.png" alt="Multi-modal Knowledge Distillation teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Multi-modal Knowledge Distillation-based Human Trajectory Forecasting</div>
+    <div class="pub__authors"><b>J. Jeong</b>, S. Lee, D. Park, G. Lee, K. Yoon</div>
+    <div class="pub__meta"><span class="pub__venue">CVPR 2025</span></div>
+    <div class="pub__links">
+      <a href="http://arxiv.org/abs/2503.22201"><i class="fa-solid fa-file-lines"></i>Paper</a>
+      <a href="https://github.com/Jaewoo97/KDTF"><i class="fa-brands fa-github"></i>Code</a>
     </div>
+  </div>
 </div>
-<br/>
-<div style="display: flex; align-items: center;">
-    <img src='/images/ais.png' alt='Advanced Intelligent Systems' class="publication-image-narrow">
 
-    <!-- Text Content -->
-    <div class="publication-info">
-        Predicting AFM topography from optical microscopes using deep-learning<br>
-        <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
-        <b>Advanced Intelligent Systems, 2022</b><br>
-        <b>Selected as inside back cover</b><br>
-        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202200317">[paper]</a>
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/final_t2p_main.gif" alt="Multi-agent 3D Human Pose Forecasting teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Multi-agent Long-term 3D Human Pose Forecasting via Interaction-aware Trajectory Conditioning</div>
+    <div class="pub__authors"><b>J. Jeong</b>*, D. Park*, K. Yoon</div>
+    <div class="pub__meta"><span class="pub__venue">CVPR 2024 Highlight</span><span class="pub__note">* denotes equal contribution</span></div>
+    <div class="pub__links">
+      <a href="https://arxiv.org/abs/2404.05218"><i class="fa-solid fa-file-lines"></i>Paper</a>
+      <a href="https://github.com/Jaewoo97/t2p"><i class="fa-brands fa-github"></i>Code</a>
+      <a href="https://jaewoo97.github.io/t2p_/"><i class="fa-solid fa-globe"></i>Project page</a>
     </div>
+  </div>
 </div>
-<br/>
-<div style="display: flex; align-items: center;">
-    <img src='/images/simulation.gif' alt='Micro and Nano System Letters' class="publication-image-simulation">
 
-    <!-- Text Content -->
-    <div class="publication-info">
-        Simulation of Germanium-on-Nothing cavity’s morphological transformation using deep learning<br>
-        <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
-        <b>Micro and Nano System Letters, 2022</b><br>
-        <a href="https://mnsl-journal.springeropen.com/articles/10.1186/s40486-022-00164-5">[paper]</a>
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/TTTT.png" alt="T4P teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">T4P: Test-Time Training of Trajectory Prediction via Masked Autoencoder and Actor-specific Token Memory</div>
+    <div class="pub__authors">D. Park, J. Jeong, S. Yoon, <b>J. Jeong</b>, K. Yoon</div>
+    <div class="pub__meta"><span class="pub__venue">CVPR 2024</span></div>
+    <div class="pub__links">
+      <a href="https://arxiv.org/abs/2403.10052"><i class="fa-solid fa-file-lines"></i>Paper</a>
+      <a href="https://github.com/daeheepark/T4P"><i class="fa-brands fa-github"></i>Code</a>
     </div>
+  </div>
 </div>
-<br/>
-<div style="display: flex; align-items: center;">
-    <img src='/images/pca.png' alt='Scientific Reports' class="publication-image">
 
-    <!-- Text Content -->
-    <div class="publication-info">
-        PCA-based sub-surface structure and defect analysis for Germanium-on-Nothing using nanoscale surface topography<br>
-        <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee<br>
-        <b>Scientific Reports, 2022</b><br>
-        <a href="https://www.nature.com/articles/s41598-022-11185-w">[paper]</a>
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/aaai.png" alt="Cross-domain Trajectory Prediction teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Improving Transferability for Cross-domain Trajectory Prediction via Neural Stochastic Differential Equation</div>
+    <div class="pub__authors">D. Park, <b>J. Jeong</b>, K. Yoon</div>
+    <div class="pub__meta"><span class="pub__venue">AAAI 2024</span></div>
+    <div class="pub__links">
+      <a href="https://arxiv.org/abs/2312.15906"><i class="fa-solid fa-file-lines"></i>Paper</a>
+      <a href="https://github.com/daeheepark/TrajSDE"><i class="fa-brands fa-github"></i>Code</a>
     </div>
+  </div>
 </div>
-<br/>
-<div style="display: flex; align-items: center;">
-    <img src='/images/biomed_2.png' alt='Biomedical Engineering Letters' class="publication-image-middle">
 
-    <!-- Text Content -->
-    <div class="publication-info">
-        Cellular and biomolecular detection based on suspended microchannel resonators<br>
-        J. Ko, <b>J. Jeong</b>, S. Son, J. Lee<br>
-        <b>Biomedical Engineering Letters, 2021</b><br>
-        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8486908/">[paper]</a>
+<div class="pub-group">Motion planning</div>
+
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/merge_plan_intro.png" alt="Interaction-Merged Motion Planning teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Interaction-Merged Motion Planning: Effectively Leveraging Diverse Motion Datasets for Robust Planning</div>
+    <div class="pub__authors">G. Lee*, W. Jeong*, D. Park, <b>J. Jeong</b>, K. Yoon</div>
+    <div class="pub__meta"><span class="pub__venue">ICCV 2025 Highlight</span><span class="pub__note">* denotes equal contribution</span></div>
+    <div class="pub__links">
+      <a href="https://arxiv.org/abs/2507.04790"><i class="fa-solid fa-file-lines"></i>Paper</a>
     </div>
+  </div>
 </div>
-<br/>
-<div style="display: flex; align-items: center;">
-    <img src='/images/3d_print.jpg' alt='Advanced Materials' class="publication-image-middle">
 
-    <!-- Text Content -->
-    <div class="publication-info">
-        3D Printed Polymer Photodetectors<br>
-        S. H. Park, R. Su, <b>J. Jeong</b>, S. Z. Guo K. Qiu, D. Joung, F. Meng, M. C. McAlpine<br>
-        <b>Advanced Materials, 2018</b><br>
-        <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201803980">[paper]</a>
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/iros_teaser.png" alt="Diffusion-based Motion Planning teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning</div>
+    <div class="pub__authors">G. Lee*, D. Park*, <b>J. Jeong</b>*, K. Yoon</div>
+    <div class="pub__meta"><span class="pub__venue">IROS 2025</span><span class="pub__note">* denotes equal contribution</span></div>
+    <div class="pub__links">
+      <a href="https://arxiv.org/abs/2507.12977"><i class="fa-solid fa-file-lines"></i>Paper</a>
     </div>
+  </div>
 </div>
-<br/>
 
-<style>
-    .publication-container {
-        display: flex;
-        align-items: center;
-    }
+<div class="pub-group">Computer vision for manufacturing</div>
 
-    .publication-image {
-        margin-right: 13px;
-        width: 270px; /* Default width */
-        height: 160px; /* Default height */
-    }
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/advsci.jpg" alt="Multiscale Condensation teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Analysis of Multiscale Condensation Phenomena Using a Zero-Shot Computer Vision Framework</div>
+    <div class="pub__authors">D. Lee, S. Roh, <b>J. Jeong</b>, K. Yoon, J. Lee, and Y. Nam</div>
+    <div class="pub__meta"><span class="pub__venue pub__venue--journal">Advanced Science 2026</span></div>
+    <div class="pub__links">
+      <a href="https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202521372"><i class="fa-solid fa-file-lines"></i>Paper</a>
+    </div>
+  </div>
+</div>
 
-    .publication-image-advsci {
-        margin-right: 13px;
-        width: 270px; /* Default width */
-        height: 120px; /* Default height */
-    }
-    
-    .publication-image-t2p {
-        margin-right: 13px;
-        width: 270px; /* Default width */
-        height: 140px; /* Default height */
-    }
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/nems.png" alt="NIR semiconductor inspection teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Near-infrared inspection and machine learning-based prediction for semiconductor membrane cavity structures</div>
+    <div class="pub__authors">M. Jeong, <b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee</div>
+    <div class="pub__meta"><span class="pub__venue">NEMS 2023</span></div>
+    <div class="pub__links">
+      <a href="https://ieee-nems2023.org/board/article/956"><i class="fa-solid fa-file-lines"></i>Proceeding</a>
+    </div>
+  </div>
+</div>
 
-    .publication-image-kdtp {
-        margin-right: 13px;
-        width: 227px; /* Default width */
-        height: 155px; /* Default height */
-    }
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/ais.png" alt="AFM topography prediction teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Predicting AFM topography from optical microscopes using deep-learning</div>
+    <div class="pub__authors"><b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee</div>
+    <div class="pub__meta"><span class="pub__venue pub__venue--journal">Advanced Intelligent Systems, 2022</span><span class="pub__note">Selected as inside back cover</span></div>
+    <div class="pub__links">
+      <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/aisy.202200317"><i class="fa-solid fa-file-lines"></i>Paper</a>
+    </div>
+  </div>
+</div>
 
-    .publication-image-merge {
-        margin-right: 13px;
-        width: 240px; /* Default width */
-        height: 170px; /* Default height */
-    }
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/simulation.gif" alt="Germanium-on-Nothing simulation teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Simulation of Germanium-on-Nothing cavity’s morphological transformation using deep learning</div>
+    <div class="pub__authors"><b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee</div>
+    <div class="pub__meta"><span class="pub__venue pub__venue--journal">Micro and Nano System Letters, 2022</span></div>
+    <div class="pub__links">
+      <a href="https://mnsl-journal.springeropen.com/articles/10.1186/s40486-022-00164-5"><i class="fa-solid fa-file-lines"></i>Paper</a>
+    </div>
+  </div>
+</div>
 
-    .publication-image-simulation {
-        margin-right: 13px;
-        width: 250px; /* Default width */
-        height: 190px; /* Default height */
-    }
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/pca.png" alt="PCA subsurface analysis teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">PCA-based sub-surface structure and defect analysis for Germanium-on-Nothing using nanoscale surface topography</div>
+    <div class="pub__authors"><b>J. Jeong</b>, T. Kim, B. J. Lee, J. Lee</div>
+    <div class="pub__meta"><span class="pub__venue pub__venue--journal">Scientific Reports, 2022</span></div>
+    <div class="pub__links">
+      <a href="https://www.nature.com/articles/s41598-022-11185-w"><i class="fa-solid fa-file-lines"></i>Paper</a>
+    </div>
+  </div>
+</div>
 
-    .publication-image-narrow {
-        margin-right: 13px;
-        width: 180px; /* Default width */
-        height: 240px; /* Default height */
-    }
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/biomed_2.png" alt="Suspended microchannel resonators teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Cellular and biomolecular detection based on suspended microchannel resonators</div>
+    <div class="pub__authors">J. Ko, <b>J. Jeong</b>, S. Son, J. Lee</div>
+    <div class="pub__meta"><span class="pub__venue pub__venue--journal">Biomedical Engineering Letters, 2021</span></div>
+    <div class="pub__links">
+      <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8486908/"><i class="fa-solid fa-file-lines"></i>Paper</a>
+    </div>
+  </div>
+</div>
 
-    .publication-image-middle {
-        margin-right: 13px;
-        width: 205px; /* Default width */
-        height: 185px; /* Default height */
-    } 
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/3d_print.jpg" alt="3D Printed Polymer Photodetectors teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">3D Printed Polymer Photodetectors</div>
+    <div class="pub__authors">S. H. Park, R. Su, <b>J. Jeong</b>, S. Z. Guo K. Qiu, D. Joung, F. Meng, M. C. McAlpine</div>
+    <div class="pub__meta"><span class="pub__venue pub__venue--journal">Advanced Materials, 2018</span></div>
+    <div class="pub__links">
+      <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.201803980"><i class="fa-solid fa-file-lines"></i>Paper</a>
+    </div>
+  </div>
+</div>
 
-    .publication-info {
-        flex-grow: 1; /* Allow text to expand */
-    }
+<h2 class="section-title">Projects</h2>
 
-    /* Media query for smaller screens (e.g., mobile devices) */
-    @media (max-width: 1000px) {
-        .publication-image-advsci {
-            width: 150px; /* Adjusted width for smaller screens */
-            height: 64px; /* Adjusted height for smaller screens */
-        }
-    }
-
-    @media (max-width: 1000px) {
-        .publication-image {
-            width: 150px; /* Adjusted width for smaller screens */
-            height: 84px; /* Adjusted height for smaller screens */
-        }
-    }
-
-    @media (max-width: 1000px) {
-        .publication-image-t2p {
-            width: 160px; /* Adjusted width for smaller screens */
-            height: 84px; /* Adjusted height for smaller screens */
-        }
-    }
-
-    @media (max-width: 1000px) {
-        .publication-image-kdtp {
-            width: 155px; /* Adjusted width for smaller screens */
-            height: 84px; /* Adjusted height for smaller screens */
-        }
-    }
-
-    @media (max-width: 1000px) {
-        .publication-image-simulation {
-            width: 150px; /* Adjusted width for smaller screens */
-            height: 120px; /* Adjusted height for smaller screens */
-        }
-    }
-    
-    @media (max-width: 1000px) {
-        .publication-image-narrow {
-            width: 100px; /* Adjusted width for smaller screens */
-            height: 133px; /* Adjusted height for smaller screens */
-        }
-    }
-
-    @media (max-width: 1000px) {
-        .publication-image-middle {
-            width: 110px; /* Adjusted width for smaller screens */
-            height: 100px; /* Adjusted height for smaller screens */
-        }
-    }
-    
-</style>
-
-Projects
-======
-- 2026.1 ~ 2026.12 / Agentic vision langugae navigation models / GS E&C
-<br/>
-- 2025.3 ~ 2025.12 / Visual perception for elder care robot system / NRF of Korea
-<br/>
-- 2024.6 ~ 2025.6 / Long tail vehicle trajectory prediction for autonomous vehicle systems / Hyundai Motor Group 
-<br/>
-- 2023.5 ~ 2023.12 / Surround view depth estimation for autonomous vehicle systems / Hyundai NGV
-<br/>
-- 2023.2 ~ 2023.12 / Synthetic-to-Real domain adaptation for military object detection / LIG Nex1
-<br/>
+<ul class="projects">
+  <li><span class="projects__date">2026.1 ~ 2026.12</span><span class="projects__title">Agentic vision langugae navigation models</span><span class="projects__org">GS E&amp;C</span></li>
+  <li><span class="projects__date">2025.3 ~ 2025.12</span><span class="projects__title">Visual perception for elder care robot system</span><span class="projects__org">NRF of Korea</span></li>
+  <li><span class="projects__date">2024.6 ~ 2025.6</span><span class="projects__title">Long tail vehicle trajectory prediction for autonomous vehicle systems</span><span class="projects__org">Hyundai Motor Group</span></li>
+  <li><span class="projects__date">2023.5 ~ 2023.12</span><span class="projects__title">Surround view depth estimation for autonomous vehicle systems</span><span class="projects__org">Hyundai NGV</span></li>
+  <li><span class="projects__date">2023.2 ~ 2023.12</span><span class="projects__title">Synthetic-to-Real domain adaptation for military object detection</span><span class="projects__org">LIG Nex1</span></li>
+</ul>
 
 <!-- Default Statcounter code for personal website
 http://jaewoo97.github.io -->

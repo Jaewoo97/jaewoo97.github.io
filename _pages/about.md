@@ -29,10 +29,10 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
 <div class="pub-group">Motion understanding</div>
 
 <div class="pub">
-  <div class="pub__thumb"><img src="/images/tpvideo_teaser.png" alt="Gaze-hand Trajectory Merging teaser"></div>
+  <div class="pub__thumb"><img src="/images/tpvideo_teaser.png" alt="EgoComp teaser"></div>
   <div class="pub__body">
-    <div class="pub__title">Gaze-hand Trajectory Merging for Efficient Egocentric Video Understanding</div>
-    <div class="pub__authors"><b>Jaewoo Jeong*</b>, M. Kim*, Yujin Bae*, Kuk-Jin Yoon</div>
+    <div class="pub__title">EgoComp: Behavior-Guided Complementary Token Selection for Efficient Egocentric Video Understanding</div>
+    <div class="pub__authors"><b>Jaewoo Jeong*</b>, Minseok Kim*, Yujin Bae*, Kuk-Jin Yoon</div>
     <div class="pub__meta"><span class="pub__venue pub__venue--soon">Coming soon!</span></div>
   </div>
 </div>
@@ -43,7 +43,7 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
   <div class="pub__thumb"><img src="/images/sra_teaser.png" alt="SRA teaser"></div>
   <div class="pub__body">
     <div class="pub__title">SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction</div>
-    <div class="pub__authors"><b>Jaewoo Jeong*</b>, S. Song*, H. Park, J. Cho, Yujin Bae, Giwon Lee, Daehee Park, Kuk-Jin Yoon</div>
+    <div class="pub__authors"><b>Jaewoo Jeong*</b>, Seonkyu Song*, Hyeonwoo Park, Jegyeong Cho, Yujin Bae, Giwon Lee, Daehee Park, Kuk-Jin Yoon</div>
     <div class="pub__meta"><span class="pub__venue pub__venue--soon">Coming soon!</span></div>
   </div>
 </div>

@@ -26,8 +26,6 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
 
 <h2 class="section-title">Publications</h2>
 
-<div class="pub-group">Motion understanding</div>
-
 <div class="pub">
   <div class="pub__thumb"><img src="/images/tpvideo_teaser.png" alt="EgoComp teaser"></div>
   <div class="pub__body">
@@ -36,8 +34,6 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
     <div class="pub__meta"><span class="pub__venue pub__venue--soon">Coming soon!</span></div>
   </div>
 </div>
-
-<div class="pub-group">Motion prediction</div>
 
 <div class="pub">
   <div class="pub__thumb"><img src="/images/sra_teaser.png" alt="SRA teaser"></div>
@@ -115,8 +111,6 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
   </div>
 </div>
 
-<div class="pub-group">Motion planning</div>
-
 <div class="pub">
   <div class="pub__thumb"><img src="/images/merge_plan_intro.png" alt="Interaction-Merged Motion Planning teaser"></div>
   <div class="pub__body">
@@ -140,8 +134,6 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
     </div>
   </div>
 </div>
-
-<div class="pub-group">Computer vision for manufacturing</div>
 
 <div class="pub">
   <div class="pub__thumb"><img src="/images/advsci.jpg" alt="Multiscale Condensation teaser"></div>

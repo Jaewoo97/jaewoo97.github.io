@@ -26,8 +26,6 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
 
 <h2 class="section-title">Publications</h2>
 
-<div class="pub-group">Human Motion &amp; Embodied AI</div>
-
 <div class="pub">
   <div class="pub__thumb"><img src="/images/tpvideo_teaser.png" alt="EgoComp teaser"></div>
   <div class="pub__body">

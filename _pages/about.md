@@ -42,7 +42,7 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
   <div class="pub__body">
     <div class="pub__title">SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction</div>
     <div class="pub__authors"><b>Jaewoo Jeong*</b>, Seonkyu Song*, Hyeonwoo Park, Jegyeong Cho, Yujin Bae, Giwon Lee, Daehee Park, Kuk-Jin Yoon</div>
-    <div class="pub__meta"><span class="pub__venue pub__venue--soon">Coming soon!</span></div>
+    <div class="pub__meta"><span class="pub__venue">NeurIPS 2026</span><span class="pub__note">* denotes equal contribution</span></div>
   </div>
 </div>
 

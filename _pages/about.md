@@ -59,6 +59,30 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
 </div>
 
 <div class="pub">
+  <div class="pub__thumb"><img src="/images/merge_plan_intro.png" alt="Interaction-Merged Motion Planning teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Interaction-Merged Motion Planning: Effectively Leveraging Diverse Motion Datasets for Robust Planning</div>
+    <div class="pub__authors">Giwon Lee*, Wooseong Jeong*, Daehee Park, <b>Jaewoo Jeong</b>, Kuk-Jin Yoon</div>
+    <div class="pub__meta"><span class="pub__venue">ICCV 2025 Highlight</span><span class="pub__note">* denotes equal contribution</span></div>
+    <div class="pub__links">
+      <a href="https://arxiv.org/abs/2507.04790"><i class="fa-solid fa-file-lines"></i>Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub">
+  <div class="pub__thumb"><img src="/images/iros_teaser.png" alt="Diffusion-based Motion Planning teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning</div>
+    <div class="pub__authors">Giwon Lee*, Daehee Park*, <b>Jaewoo Jeong</b>*, Kuk-Jin Yoon</div>
+    <div class="pub__meta"><span class="pub__venue">IROS 2025</span><span class="pub__note">* denotes equal contribution</span></div>
+    <div class="pub__links">
+      <a href="https://arxiv.org/abs/2507.12977"><i class="fa-solid fa-file-lines"></i>Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub">
   <div class="pub__thumb"><img src="/images/teaser_sizeUp.png" alt="Multi-modal Knowledge Distillation teaser"></div>
   <div class="pub__body">
     <div class="pub__title">Multi-modal Knowledge Distillation-based Human Trajectory Forecasting</div>
@@ -107,30 +131,6 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
     <div class="pub__links">
       <a href="https://arxiv.org/abs/2312.15906"><i class="fa-solid fa-file-lines"></i>Paper</a>
       <a href="https://github.com/daeheepark/TrajSDE"><i class="fa-brands fa-github"></i>Code</a>
-    </div>
-  </div>
-</div>
-
-<div class="pub">
-  <div class="pub__thumb"><img src="/images/merge_plan_intro.png" alt="Interaction-Merged Motion Planning teaser"></div>
-  <div class="pub__body">
-    <div class="pub__title">Interaction-Merged Motion Planning: Effectively Leveraging Diverse Motion Datasets for Robust Planning</div>
-    <div class="pub__authors">Giwon Lee*, Wooseong Jeong*, Daehee Park, <b>Jaewoo Jeong</b>, Kuk-Jin Yoon</div>
-    <div class="pub__meta"><span class="pub__venue">ICCV 2025 Highlight</span><span class="pub__note">* denotes equal contribution</span></div>
-    <div class="pub__links">
-      <a href="https://arxiv.org/abs/2507.04790"><i class="fa-solid fa-file-lines"></i>Paper</a>
-    </div>
-  </div>
-</div>
-
-<div class="pub">
-  <div class="pub__thumb"><img src="/images/iros_teaser.png" alt="Diffusion-based Motion Planning teaser"></div>
-  <div class="pub__body">
-    <div class="pub__title">Non-differentiable Reward Optimization for Diffusion-based Autonomous Motion Planning</div>
-    <div class="pub__authors">Giwon Lee*, Daehee Park*, <b>Jaewoo Jeong</b>*, Kuk-Jin Yoon</div>
-    <div class="pub__meta"><span class="pub__venue">IROS 2025</span><span class="pub__note">* denotes equal contribution</span></div>
-    <div class="pub__links">
-      <a href="https://arxiv.org/abs/2507.12977"><i class="fa-solid fa-file-lines"></i>Paper</a>
     </div>
   </div>
 </div>

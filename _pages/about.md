@@ -14,7 +14,7 @@ My research interests include, but are not limited to: **egocentric vision**, **
 
 During my undergraduate years at U of Minnesota-Twin Cities, I discovered my passion for developing computational algorithms through my research in computational fluid mechanics. This enthralling experience had lead me to pursue graduate studies, starting from computer vision-based manufacturing during my master's degree at [MNIL](https://mnil.kaist.ac.kr/), KAIST. For my PhD degree, I have moved to [VILab](https://vi.kaist.ac.kr/), KAIST to focus my research on AI for computer vision.
 
-My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260908.pdf)
+My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260928.pdf)
 <br/>
 
 <h2 class="section-title">Awards</h2>
@@ -78,6 +78,7 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
     <div class="pub__meta"><span class="pub__venue">IROS 2025</span><span class="pub__note">* denotes equal contribution</span></div>
     <div class="pub__links">
       <a href="https://arxiv.org/abs/2507.12977"><i class="fa-solid fa-file-lines"></i>Paper</a>
+      <a href="https://github.com/GiwonLee00/IROS2025_Non-differentiable-Reward-Optimization-for-Diffusion-based-Autonomous-Motion-Planning"><i class="fa-brands fa-github"></i>Code</a>
     </div>
   </div>
 </div>

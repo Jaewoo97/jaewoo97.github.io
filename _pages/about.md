@@ -27,6 +27,15 @@ My CV can be found [here.](https://jaewoo97.github.io/assets/Jaewoo_Jeong_CV_260
 <h2 class="section-title">Publications</h2>
 
 <div class="pub">
+  <div class="pub__thumb"><img src="/images/reup_teaser.png" alt="ReUP teaser"></div>
+  <div class="pub__body">
+    <div class="pub__title">ReUP: Retrieval-Augmented Understanding and Prediction of Human Behaviour from Sparse Egocentric Signals</div>
+    <div class="pub__authors"><b>Jaewoo Jeong</b>, Hoyong Kwon, Minseok Kim, Yujin Bae, Kuk-Jin Yoon</div>
+    <div class="pub__meta"><span class="pub__venue pub__venue--soon">Coming soon!</span></div>
+  </div>
+</div>
+
+<div class="pub">
   <div class="pub__thumb"><img src="/images/tpvideo_teaser.png" alt="EgoComp teaser"></div>
   <div class="pub__body">
     <div class="pub__title">EgoComp: Behavior-Guided Complementary Token Selection for Efficient Egocentric Video Understanding</div>
